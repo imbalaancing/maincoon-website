@@ -1,29 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maincoon project</title>
-
-    <link rel="stylesheet" href="./main.css">
-</head>
-<body>
+    <link
+      rel="preload"
+      href="./fonts/Roboto.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/Robotobold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/Robotolight.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/Robotomedium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/yesevaone.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
     <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <img class="header__logo" src="./img/svg/crown.svg" alt="logo" />
+          <div class="header__info">
+            <p class="header__city">Новосибирск</p>
+            <h1 class="header__title">Питомник Мейн-Кунов</h1>
+            <p class="header__lead">
+              Первый питомник с расширенным спектром услуг
+            </p>
+          </div>
+          <a href="#" class="button header__button">Смотреть котиков</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section-pets">
         <div class="container">
-            <div class="header__content">
-                    <img class="header__logo" src="./img/svg/crown.svg" alt="logo">
-                <div class="header__info">
-                    <p class="header__city">Новосибирск</p>
-                    <h1 class="header__title">Питомник Мейн-Кунов</h1>
-                    <p class="header__lead">Первый питомник с расширенным спектром услуг</p>
+            <div class="section-pets__wrapper">
+                <div class="section-pets__info">
+                    <h2 class="section-pets__title">Питомцы</h2>
+                    <p class="section-pets__lead">
+                        Все представители нашего питомника имеют ветеринарный паспорт с
+                        отметками о прививках и документ с родословной
+                    </p>
                 </div>
-                <a href="#" class="header__button">Смотреть котиков</a>
-                <div class="header__img-wrapper">
-                    <img src="./img/header/header-cat.png" alt="header maincoon">
+                    <ul class="section-pets__list">
+                        <li class="section-pets__item">
+                            <a href="#" class="section-pets__tab">Коты</a>
+                        </li>
+                        <li class="section-pets__item">
+                            <a href="#" class="section-pets__tab">Кошки</a>
+                        </li>
+                        <li class="section-pets__item">
+                            <a href="#" class="section-pets__tab">Котята</a>
+                        </li>
+                    </ul>
+                <div class="section-pets__slider">
+                    <button class="slider__prev" type="button"></button>
+                    <button class="slider__next" type="button"></button>
+                    <div class="section-pets__slider-item">
+                        <img src="./img/section-pets/pets-list-1.png" alt="graycoon" class="section-pets__slider-img">
+                    </div>
+                </div>
+                <div class="section-pets__button-wrapper">
+                    <a href="#" class="button section-pets__button">Смотреть больше</a>
                 </div>
             </div>
         </div>
-    </header> 
-</body>
+      </section>
+    </main>
+  </body>
 </html>

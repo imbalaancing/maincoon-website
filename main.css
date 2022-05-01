@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Roboto";
-  src: url("./fonts/_Roboto.woff2"), url("./fonts/_Roboto.woff");
+  src: url("./fonts/Robotolight.woff2"), url("./fonts/Robotolight.woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("./fonts/_Roboto.woff2"), url("./fonts/_Roboto.woff");
+  src: url("./fonts/Roboto.woff2"), url("./fonts/Roboto.woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("./fonts/_Robotomedium.woff2"), url("./fonts/_Robotomedium.woff");
+  src: url("./fonts/Robotomedium.woff2"), url("./fonts/Robotomedium.woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("./fonts/_Robotobold.woff2"), url("./fonts/_Robotobold.woff");
+  src: url("./fonts/Robotobold.woff2"), url("./fonts/Robotobold.woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: "Yeseva One";
-  src: url("./fonts/_yesevaone.woff2"), url("./fonts/_yesevaone.woff");
+  src: url("./fonts/yesevaone.woff2"), url("./fonts/yesevaone.woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -72,12 +72,21 @@ h6 {
   padding: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
 }
 
 .header {
+  height: 617px;
+  position: relative;
   background-color: #181617;
+  background-image: url("./img/header/header-cat.png");
+  background-repeat: no-repeat;
+  background-position: right 0 bottom 0;
 }
 
 .container {
@@ -139,8 +148,67 @@ a {
   margin-bottom: 40px;
 }
 
-.header__button {
-  font-family: 'Roboto';
+.section-pets {
+  background: #1f1c1d;
+}
+
+.section-pets__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-pets__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 60px;
+  margin-bottom: 35px;
+}
+
+.section-pets__lead {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #a07b50;
+  margin-bottom: 40px;
+}
+
+.section-pets__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0;
+}
+
+.section-pets__tab {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.section-pets__slider {
+  position: relative;
+}
+
+.button {
+  font-family: "Roboto", "Arial", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -151,7 +219,49 @@ a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 12px;
+  display: inline-block;
+  color: #ffffff;
+  text-align: center;
+}
+
+.section-pets__button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider__prev {
+  background-image: url("./img/svg/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
   display: block;
-  color: #FFFFFF;
+  width: 14px;
+  height: 31px;
+  border: none;
+  background-color: transparent;
+  left: 0;
+}
+
+.slider__next {
+  background-image: url("./img/svg/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: block;
+  width: 14px;
+  height: 31px;
+  border: none;
+  background-color: transparent;
+  right: 0;
 }
 /*# sourceMappingURL=main.css.map */
