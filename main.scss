@@ -70,8 +70,11 @@ h6 {
   padding: 0;
 }
 
+ul,
 li {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -238,4 +241,138 @@ a {
   border: none;
   background-color: transparent;
   right: 0;
+}
+
+.breed-features {
+  background: #1f1c1d;
+}
+
+.breed-features__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.breed-features__title {
+  margin-top: 60px;
+  margin-bottom: 35px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.breed-features__lead {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+
+  text-align: center;
+
+  color: #a07b50;
+  margin-bottom: 30px;
+  width: 271px;
+}
+
+.breed-features__image {
+  position: relative;
+  z-index: 1;
+}
+
+.breed-features__image::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  z-index: -1;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.breed-features__image::after {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: -7px;
+  z-index: -1;
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  border: 1px solid #a07b50;
+}
+
+.breed-features__list {
+  margin-top: 40px;
+  width: 255px;
+  line-height: 20px;
+  position: relative;
+}
+
+.breed-features__item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  left: 0;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.breed-features__item:last-child {
+  margin-bottom: 60px;
+}
+
+.friendly::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #a07b50;
+  left: -18px;
+}
+
+.trainable::before {
+  content: "";
+  position: absolute;
+  top: 75px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #a07b50;
+  left: -18px;
+}
+
+.large::before {
+  content: "";
+  position: absolute;
+  top: 144px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #a07b50;
+  left: -18px;
+}
+
+.appearance::before {
+  content: "";
+  position: absolute;
+  top: 194px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #a07b50;
+  left: -18px;
 }
