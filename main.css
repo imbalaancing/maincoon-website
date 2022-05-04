@@ -405,4 +405,73 @@ a {
   background-color: #a07b50;
   left: -18px;
 }
+
+.advantages__wrapper {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.advantages__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.advantages__lead {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #a07b50;
+  margin-bottom: 40px;
+}
+
+.advantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantages__item {
+  background: #1f1c1d;
+  width: 290px;
+  min-height: 248px;
+  margin-bottom: 30px;
+}
+
+.advantages__link {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.advantages__link span {
+  max-width: 213px;
+  margin: 0 auto;
+  display: block;
+}
+
+.advantages__link img {
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
 /*# sourceMappingURL=main.css.map */
