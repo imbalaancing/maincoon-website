@@ -441,3 +441,84 @@ a {
   padding-bottom: 20px;
   padding-top: 40px;
 }
+
+.care {
+  background-image: url("./img/section-care/bg-cat.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.care__wrapper {
+padding-top: 58px;
+}
+
+.care__title {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 42px;
+  width: 228px;
+  margin: 42px auto;
+  color: #FFFFFF;
+}
+
+.care__list {
+display: flex;
+margin: 0 auto;
+padding: 0;
+flex-direction: column;
+}
+
+.care__item {
+margin-bottom: 30px;
+width: 290px;
+min-height: 151px;
+}
+
+.care__link {
+position: relative;
+display: block;
+border: 1px solid #a07b50;
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 25px;
+}
+
+.care__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 46px;
+  background-color: #a07b50;
+  border-left: 1px solid #a07b50;
+  background-image: url("./img/svg/show-details.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.care__link-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #A07B50;
+  padding-bottom: 20px;
+}
+
+.care__link-info {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  max-width: 211px;
+}
