@@ -140,16 +140,16 @@ a {
   margin-bottom: 40px;
 }
 
-.section-pets {
+.pets {
   background: #1f1c1d;
 }
 
-.section-pets__info {
+.pets__info {
   display: flex;
   flex-direction: column;
 }
 
-.section-pets__title {
+.pets__title {
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
@@ -161,7 +161,7 @@ a {
   margin-bottom: 35px;
 }
 
-.section-pets__lead {
+.pets__lead {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
@@ -171,13 +171,13 @@ a {
   color: #a07b50;
   margin-bottom: 40px;
 }
-.section-pets__list {
+.pets__list {
   display: flex;
   justify-content: space-around;
   padding: 0;
 }
 
-.section-pets__tab {
+.pets__tab {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -187,7 +187,7 @@ a {
   color: #ffffff;
 }
 
-.section-pets__slider {
+.pets__slider {
   position: relative;
 }
 
@@ -207,7 +207,7 @@ a {
   text-align: center;
 }
 
-.section-pets__button-wrapper {
+.pets__button-wrapper {
   display: flex;
   align-self: center;
   justify-content: center;
@@ -450,11 +450,12 @@ a {
 }
 
 .care__wrapper {
-padding-top: 58px;
+  padding-top: 58px;
+  padding-bottom: 30px;
 }
 
 .care__title {
-  font-family: 'Yeseva One';
+  font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
@@ -463,29 +464,29 @@ padding-top: 58px;
   margin-bottom: 42px;
   width: 228px;
   margin: 42px auto;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .care__list {
-display: flex;
-margin: 0 auto;
-padding: 0;
-flex-direction: column;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  flex-direction: column;
 }
 
 .care__item {
-margin-bottom: 30px;
-width: 290px;
-min-height: 151px;
+  margin-bottom: 30px;
+  width: 290px;
+  min-height: 151px;
 }
 
 .care__link {
-position: relative;
-display: block;
-border: 1px solid #a07b50;
-padding-top: 25px;
-padding-bottom: 25px;
-padding-left: 25px;
+  position: relative;
+  display: block;
+  border: 1px solid #a07b50;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
 }
 
 .care__link::after {
@@ -504,21 +505,152 @@ padding-left: 25px;
 }
 
 .care__link-title {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
-  color: #A07B50;
+  color: #a07b50;
   padding-bottom: 20px;
 }
 
 .care__link-info {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 140%;
-  color: #FFFFFF;
+  color: #ffffff;
   max-width: 211px;
 }
+
+.team {
+  background-color: #181617;
+}
+
+.team__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.team__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+
+  text-align: center;
+
+  color: #ffffff;
+  margin-bottom: 35px;
+  margin-top: 60px;
+}
+
+.team__lead {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  width: 255px;
+  margin-bottom: 40px;
+  color: #a07b50;
+}
+
+.team__slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.team__slider-outer {
+  position: absolute;
+  width: 290px;
+  height: 275px;
+  z-index: -1;
+  background: #1f1c1d;
+  bottom: -22px;
+}
+
+.team__button-prev {
+  background-image: url("./img/svg/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 14%;
+  z-index: 5;
+  display: block;
+  width: 14px;
+  height: 31px;
+  border: none;
+  background-color: transparent;
+  right: 80%;
+  z-index: 2;
+}
+.team__button-next {
+  background-image: url("./img/svg/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 14%;
+  z-index: 5;
+  display: block;
+  width: 14px;
+  height: 31px;
+  border: none;
+  background-color: transparent;
+  right: 15%;
+  z-index: 2;
+}
+.team__slider-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  color: #a07b50;
+}
+.team__slider-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135.94%;
+  text-align: center;
+  padding-bottom: 15px;
+  color: #a07b50;
+}
+.team__slider-lead {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  width: 268px;
+  color: rgba(255, 255, 255, 0.72);
+  padding-bottom: 22px;
+}
+.team__social-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 2;
+}
+.team__social-item {
+  margin-right: 15px;
+}
+
+.team__social-item:last-child {
+  margin-right: 0;
+}
+
