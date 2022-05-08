@@ -593,6 +593,7 @@ a {
   right: 80%;
   z-index: 2;
 }
+
 .team__button-next {
   background-image: url("./img/svg/arrow-right.svg");
   background-repeat: no-repeat;
@@ -608,6 +609,7 @@ a {
   right: 15%;
   z-index: 2;
 }
+
 .team__slider-title {
   font-family: "Roboto";
   font-style: normal;
@@ -619,6 +621,7 @@ a {
   padding-bottom: 12px;
   color: #a07b50;
 }
+
 .team__slider-subtitle {
   font-family: "Roboto";
   font-style: normal;
@@ -654,3 +657,97 @@ a {
   margin-right: 0;
 }
 
+.faq {
+  background-color: #1f1c1d;
+}
+
+.faq__wrapper {
+  padding-bottom: 30px;
+}
+
+.faq__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 35px;
+}
+
+.faq__lead {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #a07b50;
+  padding-bottom: 40px;
+}
+
+.faq__item {
+  margin-bottom: 30px;
+}
+
+.faq__question {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: left;
+  color: #ddd0c3;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #1f1c1d;
+  border: 0.5px solid rgba(160, 123, 80, 0.41);
+  width: 290px;
+  padding: 15px;
+  padding-right: 45px;
+}
+
+.faq__question::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("./img/svg/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-left: 0.5px solid rgba(160, 123, 80, 0.41);
+  width: 43px;
+  height: 100%;
+}
+
+.faq__question-active::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url("./img/svg/minus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-left: 0.5px solid rgba(160, 123, 80, 0.41);
+  width: 43px;
+  height: 100%;
+  background-color: #a07b50;
+}
+
+.faq__answer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ddd0c3;
+  text-align: left;
+}
+
+.faq__answer-show {
+  border: 0.5px solid rgba(160, 123, 80, 0.41);
+  border-top: none;
+  padding: 15px 27px 15px 15px;
+}
