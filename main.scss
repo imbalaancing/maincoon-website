@@ -99,7 +99,7 @@ a {
 
 .header__logo {
   margin-top: 27px;
-  margin-bottom: 57px;
+  margin-bottom: 52px;
   display: block;
 }
 .header__content {
@@ -117,7 +117,7 @@ a {
   line-height: 150%;
   color: #a07b50;
 
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .header__title {
   font-family: "Yeseva One";
@@ -126,7 +126,7 @@ a {
   font-size: 36px;
   line-height: 42px;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 .header__lead {
   font-family: "Roboto";
@@ -137,7 +137,7 @@ a {
 
   color: #a07b50;
 
-  margin-bottom: 40px;
+  margin-bottom: 38px;
 }
 
 .pets {
@@ -157,8 +157,8 @@ a {
   line-height: 32px;
   text-align: center;
   color: #ffffff;
-  margin-top: 60px;
-  margin-bottom: 35px;
+  margin-top: 54px;
+  margin-bottom: 24px;
 }
 
 .pets__lead {
@@ -169,12 +169,14 @@ a {
   line-height: 140%;
   text-align: center;
   color: #a07b50;
-  margin-bottom: 40px;
+  margin-bottom: 29px;
 }
+
 .pets__list {
   display: flex;
   justify-content: space-around;
   padding: 0;
+  margin-bottom: 5px;
 }
 
 .pets__tab {
@@ -189,6 +191,7 @@ a {
 
 .pets__slider {
   position: relative;
+  margin-bottom: 11px;
 }
 
 .button {
@@ -218,14 +221,14 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 50%;
+  top: 44%;
   z-index: 5;
   display: block;
   width: 14px;
   height: 31px;
   border: none;
   background-color: transparent;
-  left: 0;
+  left: -2px;
 }
 
 .slider__next {
@@ -233,14 +236,14 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 50%;
+  top: 44%;
   z-index: 5;
   display: block;
   width: 14px;
   height: 31px;
   border: none;
   background-color: transparent;
-  right: 0;
+  right: -2px;
 }
 
 .breed-features {
@@ -255,8 +258,8 @@ a {
 }
 
 .breed-features__title {
-  margin-top: 60px;
-  margin-bottom: 35px;
+  margin-top: 55px;
+  margin-bottom: 23px;
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
@@ -273,11 +276,9 @@ a {
   font-weight: 300;
   font-size: 14px;
   line-height: 140%;
-
   text-align: center;
-
   color: #a07b50;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   width: 271px;
 }
 
@@ -311,7 +312,7 @@ a {
 }
 
 .breed-features__list {
-  margin-top: 40px;
+  margin-top: 43px;
   width: 255px;
   line-height: 20px;
   position: relative;
@@ -326,11 +327,11 @@ a {
   left: 0;
   text-align: left;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 21px;
 }
 
 .breed-features__item:last-child {
-  margin-bottom: 60px;
+  margin-bottom: 55px;
 }
 
 .friendly::before {
@@ -347,7 +348,7 @@ a {
 .trainable::before {
   content: "";
   position: absolute;
-  top: 75px;
+  top: 66px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -358,7 +359,7 @@ a {
 .large::before {
   content: "";
   position: absolute;
-  top: 144px;
+  top: 126px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -369,7 +370,7 @@ a {
 .appearance::before {
   content: "";
   position: absolute;
-  top: 194px;
+  top: 165px;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -378,7 +379,7 @@ a {
 }
 
 .advantages__wrapper {
-  margin-top: 60px;
+  margin-top: 53px;
   margin-bottom: 30px;
 }
 
@@ -389,9 +390,10 @@ a {
   font-size: 28px;
   line-height: 32px;
   text-align: center;
-
+  margin: 0 auto;
+  width: 184px;
   color: #ffffff;
-  margin-bottom: 35px;
+  margin-bottom: 23px;
 }
 
 .advantages__lead {
@@ -403,7 +405,7 @@ a {
   text-align: center;
 
   color: #a07b50;
-  margin-bottom: 40px;
+  margin-bottom: 37px;
 }
 
 .advantages__list {
@@ -438,8 +440,8 @@ a {
 }
 
 .advantages__link img {
-  padding-bottom: 20px;
-  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-top: 54px;
 }
 
 .care {
@@ -450,8 +452,8 @@ a {
 }
 
 .care__wrapper {
-  padding-top: 58px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 46px;
 }
 
 .care__title {
@@ -484,7 +486,7 @@ a {
   position: relative;
   display: block;
   border: 1px solid #a07b50;
-  padding-top: 25px;
+  padding-top: 14px;
   padding-bottom: 25px;
   padding-left: 25px;
 }
@@ -511,7 +513,7 @@ a {
   font-size: 18px;
   line-height: 21px;
   color: #a07b50;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .care__link-info {
@@ -532,7 +534,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 80px;
+  padding-bottom: 64px;
 }
 
 .team__title {
@@ -545,8 +547,8 @@ a {
   text-align: center;
 
   color: #ffffff;
-  margin-bottom: 35px;
-  margin-top: 60px;
+  padding-bottom: 23px;
+  padding-top: 54px;
 }
 
 .team__lead {
@@ -557,7 +559,7 @@ a {
   line-height: 140%;
   text-align: center;
   width: 255px;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   color: #a07b50;
 }
 
@@ -575,7 +577,7 @@ a {
   height: 275px;
   z-index: -1;
   background: #1f1c1d;
-  bottom: -22px;
+  bottom: -27px;
 }
 
 .team__button-prev {
@@ -583,14 +585,14 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 14%;
+  top: 15%;
   z-index: 5;
   display: block;
   width: 14px;
   height: 31px;
   border: none;
   background-color: transparent;
-  right: 80%;
+  right: 79%;
   z-index: 2;
 }
 
@@ -599,14 +601,14 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 14%;
+  top: 15%;
   z-index: 5;
   display: block;
   width: 14px;
   height: 31px;
   border: none;
   background-color: transparent;
-  right: 15%;
+  right: 17%;
   z-index: 2;
 }
 
@@ -618,7 +620,7 @@ a {
   line-height: 21px;
   text-align: center;
   padding-top: 15px;
-  padding-bottom: 12px;
+  padding-bottom: 5px;
   color: #a07b50;
 }
 
@@ -642,7 +644,7 @@ a {
   text-align: center;
   width: 268px;
   color: rgba(255, 255, 255, 0.72);
-  padding-bottom: 22px;
+  padding-bottom: 26px;
 }
 
 .team__social-list {
@@ -664,7 +666,7 @@ a {
 }
 
 .faq__wrapper {
-  padding-bottom: 30px;
+  padding-bottom: 28px;
 }
 
 .faq__title {
@@ -676,7 +678,7 @@ a {
   text-align: center;
   color: #ffffff;
   padding-top: 60px;
-  padding-bottom: 35px;
+  padding-bottom: 25px;
 }
 
 .faq__lead {
@@ -687,11 +689,13 @@ a {
   line-height: 140%;
   text-align: center;
   color: #a07b50;
-  padding-bottom: 40px;
+  padding-bottom: 35px;
+  width: 177px;
+  margin: 0 auto;
 }
 
 .faq__item {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .faq__question {
@@ -707,7 +711,7 @@ a {
   background-color: #1f1c1d;
   border: 0.5px solid rgba(160, 123, 80, 0.41);
   width: 290px;
-  padding: 15px;
+  padding: 11px;
   padding-right: 45px;
 }
 
@@ -751,7 +755,7 @@ a {
 .faq__answer-show {
   border: 0.5px solid rgba(160, 123, 80, 0.41);
   border-top: none;
-  padding: 15px 27px 15px 15px;
+  padding: 8px 23px 15px 15px;
 }
 
 .reviews {
@@ -761,7 +765,7 @@ a {
 }
 
 .reviews__wrapper {
-  padding-bottom: 56px;
+  padding-bottom: 62px;
 }
 
 .reviews__slider-outer {
@@ -770,7 +774,7 @@ a {
   height: 357px;
   z-index: -1;
   background: #181617;
-  bottom: -2px;
+  bottom: -6px;
 }
 
 .reviews__title {
@@ -781,7 +785,7 @@ a {
   line-height: 32px;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 60px;
+  margin-bottom: 57px;
 }
 
 .reviews__slider {
@@ -794,7 +798,7 @@ a {
   width: 242px;
   height: 166px;
   margin: 0 auto;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
 }
 
 .reviews__button-prev {
@@ -802,7 +806,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 17%;
+  top: 16%;
   display: block;
   width: 14px;
   height: 31px;
@@ -817,7 +821,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 17%;
+  top: 16%;
   display: block;
   width: 14px;
   height: 31px;
@@ -835,7 +839,7 @@ a {
   line-height: 21px;
 
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 16px;
   color: #ffffff;
 }
 
@@ -856,7 +860,7 @@ a {
 .reviews__slider-social {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 40px;
 }
 
@@ -915,8 +919,8 @@ a {
   line-height: 140%;
 
   text-align: center;
-  margin-bottom: 20px;
-  padding-top: 40px;
+  margin-bottom: 9px;
+  padding-top: 36px;
   color: #d6ccc2;
 }
 
@@ -927,7 +931,7 @@ a {
   font-size: 14px;
   line-height: 140%;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 21px;
   color: #fdf2e6;
 }
 
@@ -935,7 +939,7 @@ a {
   display: flex;
   flex-direction: row;
   align-self: center;
-  margin-bottom: 25px;
+  margin-bottom: 21px;
 }
 
 .footer__social-item {
