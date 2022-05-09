@@ -760,6 +760,10 @@ a {
   z-index: 1;
 }
 
+.reviews__wrapper {
+  padding-bottom: 56px;
+}
+
 .reviews__slider-outer {
   position: absolute;
   width: 290px;
@@ -770,14 +774,14 @@ a {
 }
 
 .reviews__title {
-  font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 28px;
-line-height: 32px;
-text-align: center;
-color: #FFFFFF;
-margin-bottom: 60px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 60px;
 }
 
 .reviews__slider {
@@ -824,29 +828,29 @@ margin-bottom: 60px;
 }
 
 .reviews__slider-title {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
 
-text-align: center;
-margin-bottom: 25px;
-color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ffffff;
 }
 
 .reviews__slider-lead {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 140%;
-text-align: center;
-align-items: center;
-width: 227px;
-color: rgba(255, 255, 255, 0.72);
-margin: 0 auto;
-margin-bottom: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  align-items: center;
+  width: 227px;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
 
 .reviews__slider-social {
@@ -857,12 +861,12 @@ margin-bottom: 25px;
 }
 
 .reviews__slider-time {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 140%;
-color: #A07B50;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #a07b50;
 }
 
 .reviews__slider-list {
@@ -885,11 +889,66 @@ color: #A07B50;
 }
 
 .reviews__icon-twitter {
-width: 16px;
-height: 12px;
+  width: 16px;
+  height: 12px;
 }
 
 .reviews__icon-vk {
   width: 18px;
   height: 10px;
+}
+
+.footer {
+  background-color: #151313;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  color: #d6ccc2;
+}
+
+.footer__phone {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #fdf2e6;
+}
+
+.footer__social-list {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  margin-bottom: 25px;
+}
+
+.footer__social-item {
+  margin-right: 20px;
+}
+
+.footer__social-item:last-child {
+  margin-right: 0;
+}
+
+.footer__logo {
+  width: 56px;
+  height: 25px;
+  align-self: center;
+  margin-bottom: 40px;
 }
