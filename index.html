@@ -69,17 +69,20 @@
                         отметками о прививках и документ с родословной
                     </p>
                 </div>
-                    <ul class="pets__list">
-                        <li class="pets__item">
-                            <a href="#" class="pets__tab">Коты</a>
-                        </li>
-                        <li class="pets__item">
-                            <a href="#" class="pets__tab">Кошки</a>
-                        </li>
-                        <li class="pets__item">
-                            <a href="#" class="pets__tab">Котята</a>
-                        </li>
-                    </ul>
+                  <form class="pets__list">
+                    <label class="pets__item">
+                      <input type="radio" name="cats" checked>
+                      Коты
+                    </label>
+                    <label class="pets__item">
+                        <input type="radio" name="cats">
+                        Кошки
+                    </label>
+                    <label class="pets__item">
+                        <input type="radio" name="cats">
+                        Котята
+                    </label>
+                  </form>
                 <div class="pets__slider">
                     <button class="slider__prev" type="button"></button>
                     <button class="slider__next" type="button"></button>
@@ -116,26 +119,26 @@
           <div class="advantages__wrapper">
             <h2 class="advantages__title">Почему именно мы?</h2>
             <p class="advantages__lead">Приобретая  животное в нашем питомнике, вы получите</p>
-            <ul class="advantages__list">
-              <li class="advantages__item">
-                <a href="#" class="advantages__link">
-                  <img src="./img/section-advantages/vet-care.svg" alt="icon veterinary care" class="vet-care">
+            <div class="advantages__list">
+              <div class="advantages__item">
+                <div class="advantages__content">
+                  <div class="veterinary"></div>
                   <span>Бесплатное ветеринарное обслуживание 5 лет</span>
-                </a>
-              </li>
-              <li class="advantages__item">
-                <a href="#" class="advantages__link">
-                  <img src="./img/section-advantages/counseling.svg" alt="icon counseling" class="counseling">
+                </div>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__content">
+                  <div class="counselting"></div>
                   <span>Консультирование по любому вопросу 24 часа в сутки</span>
-                </a>
-              </li>
-              <li class="advantages__item">
-                <a href="#" class="advantages__link">
-                  <img src="./img/section-advantages/food-select.svg" alt="icon food select" class="food-select">
+                </div>
+              </div>
+              <div class="advantages__item">
+                <div class="advantages__content">
+                  <div class="select-food"></div>
                   <span>Индивидуальный подбор питания для вашего кота</span>
-                </a>
-              </li>
-            </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -180,7 +183,7 @@
             <div class="team__slider">
               <div class="team__slider-outer"></div>
               <div class="team__img-wrapper">
-                <img src="./img/section-team/employee.png" alt="employee in our team">
+                <img src="./img/section-team/employee.jpg" alt="employee in our team">
               </div>
               <button class="team__button-prev"></button>
               <button class="team__button-next"></button>
@@ -190,18 +193,18 @@
             </div>
             <ul class="team__social-list">
               <li class="team__social-item">
-                <a href="#" class="team__social-link">
-                  <img src="./img/section-team/facebook.svg" alt="facebook" class="team__social-facebook">
+                <a href="#" class="team__social-facebook">
+                  <p class="hidden">facebook</p>
                 </a>
               </li>
               <li class="team__social-item">
-                <a href="#" class="team__social-link">
-                  <img src="./img/section-team/twitter.svg" alt="twitter" class="team__social-twitter">
+                <a href="#" class="team__social-twitter">
+                  <p class="hidden">twitter</p>
                 </a>
               </li>
               <li class="team__social-item">
-                <a href="#" class="team__social-link">
-                  <img src="./img/section-team/vk.svg" alt="vk" class="team__social-vk">
+                <a href="#" class="team__social-vk">
+                  <p class="hidden">vk</p>
                 </a>
               </li>
             </ul>
@@ -262,13 +265,13 @@
                   <time datetime="2018-05-24" class="reviews__slider-time">24 мая 2018</time>
                   <ul class="reviews__slider-list">
                     <li class="reviews__slider-item">
-                      <a href="#" class="reviews__slider-link">
-                        <img class="reviews__icon-twitter" src="./img/section-reviews/twitter.svg" alt="twitter">
+                      <a href="#" class="reviews__link-twitter">
+                        <p class="hidden">twitter</p>
                       </a>
                     </li>
                     <li class="reviews__slider-item">
-                      <a href="#" class="reviews__slider-link">
-                        <img class="reviews__icon-vk" src="./img/section-reviews/vk.svg" alt="vk">
+                      <a href="#" class="reviews__link-vk">
+                        <p class="hidden">vk</p>
                       </a>
                     </li>
                   </ul>
@@ -286,18 +289,18 @@
           <a href="tel:+73839006465" class="footer__phone">+7 (383) 900-64-65</a>
           <ul class="footer__social-list">
             <li class="footer__social-item">
-              <a href="#" class="footer__social-link">
-                <img src="./img/footer/facebook.svg" alt="fb">
+              <a href="#" class="footer__link-facebook">
+                <p class="hidden">facebook</p>
               </a>
             </li>
             <li class="footer__social-item">
-              <a href="#" class="footer__social-link">
-                <img src="./img/footer/twitter.svg" alt="tw">
+              <a href="#" class="footer__link-twitter">
+                <p class="hidden">twitter</p>
               </a>
             </li>
             <li class="footer__social-item">
-              <a href="#" class="footer__social-link">
-                <img src="./img/footer/vk.svg" alt="vk">
+              <a href="#" class="footer__link-vk">
+                <p class="hidden">vk</p>
               </a>
             </li>
           </ul>

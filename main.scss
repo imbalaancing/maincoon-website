@@ -81,6 +81,10 @@ a {
   text-decoration: none;
 }
 
+.hidden {
+  font-size: 0;
+}
+
 .header {
   height: 617px;
   position: relative;
@@ -187,6 +191,20 @@ a {
   line-height: 19px;
 
   color: #ffffff;
+}
+
+.pets__item {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.pets__item input {
+  display: none;
 }
 
 .pets__slider {
@@ -421,27 +439,45 @@ a {
   margin-bottom: 30px;
 }
 
-.advantages__link {
-  display: block;
+.advantages__content {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 140%;
   text-align: center;
-
   color: #ffffff;
+  height: 248px;
 }
 
-.advantages__link span {
+.veterinary {
+background-image: url("./img/section-advantages/vet-care.svg");
+background-repeat: no-repeat;
+background-position: bottom;
+height: 145px;
+margin-bottom: 14px;
+}
+
+.counselting {
+  background-image: url("./img/section-advantages/counseling.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 135px;
+  margin-bottom: 14px;
+}
+
+.select-food {
+  background-image: url("./img/section-advantages/food-select.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 145px;
+  margin-bottom: 14px;
+}
+
+.advantages__content span {
   max-width: 213px;
   margin: 0 auto;
   display: block;
-}
-
-.advantages__link img {
-  padding-bottom: 10px;
-  padding-top: 54px;
 }
 
 .care {
@@ -661,6 +697,30 @@ a {
   margin-right: 0;
 }
 
+.team__social-facebook {
+background-image: url("./img/section-team/facebook.svg");
+background-repeat: no-repeat;
+display: block;
+width: 5px;
+height: 12px;
+}
+
+.team__social-twitter {
+background-image: url("./img/section-team/twitter.svg");
+background-repeat: no-repeat;
+display: block;
+width: 16px;
+height: 12px;
+}
+
+.team__social-vk {
+  background-image: url("./img/section-team/vk.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 18px;
+  height: 10px;
+}
+
 .faq {
   background-color: #1f1c1d;
 }
@@ -677,7 +737,7 @@ a {
   line-height: 32px;
   text-align: center;
   color: #ffffff;
-  padding-top: 60px;
+  padding-top: 65px;
   padding-bottom: 25px;
 }
 
@@ -765,7 +825,7 @@ a {
 }
 
 .reviews__wrapper {
-  padding-bottom: 62px;
+  padding-bottom: 51px;
 }
 
 .reviews__slider-outer {
@@ -774,7 +834,7 @@ a {
   height: 357px;
   z-index: -1;
   background: #181617;
-  bottom: -6px;
+  bottom: 5px;
 }
 
 .reviews__title {
@@ -879,27 +939,36 @@ a {
 
 .reviews__slider-item {
   margin-right: 15px;
+  width: 28px;
+  height: 28px;
 }
 
 .reviews__slider-item:last-child {
   margin-right: 0;
 }
 
-.reviews__slider-item a {
-  border: 0.5px solid rgba(160, 123, 80, 0.27);
-  width: 28px;
-  height: 28px;
-  padding: 8px 6px;
-}
-
-.reviews__icon-twitter {
+.reviews__link-twitter {
+  background-image: url("./img/section-reviews/twitter.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
   width: 16px;
   height: 12px;
+  border: 0.5px solid rgba(160, 123, 80, 0.27);
+  padding: 13px;
+  margin: -5px;
 }
 
-.reviews__icon-vk {
+.reviews__link-vk {
+  background-image: url("./img/section-reviews/vk.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
   width: 18px;
   height: 10px;
+  border: 0.5px solid rgba(160, 123, 80, 0.27);
+  padding: 13px;
+  margin: -5px;
 }
 
 .footer {
@@ -939,7 +1008,7 @@ a {
   display: flex;
   flex-direction: row;
   align-self: center;
-  margin-bottom: 21px;
+  margin-bottom: 24px;
 }
 
 .footer__social-item {
@@ -948,6 +1017,30 @@ a {
 
 .footer__social-item:last-child {
   margin-right: 0;
+}
+
+.footer__link-facebook {
+  background-image: url("./img/footer/facebook.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 7px;
+  height: 16px;
+}
+
+.footer__link-twitter {
+  background-image: url("./img/footer/twitter.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 22px;
+  height: 16px;
+}
+
+.footer__link-vk {
+  background-image: url("./img/footer/vk.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 25px;
+  height: 14px;
 }
 
 .footer__logo {
