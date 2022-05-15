@@ -94,6 +94,12 @@ a {
   background-position: right 0 bottom 0;
 }
 
+@media (min-width: 768px) {
+  .header {
+    background-image: url("./img/header/header-cat-tablet.png");
+  }
+}
+
 .container {
   width: 320px;
   position: relative;
@@ -101,11 +107,24 @@ a {
   padding: 0 15px;
 }
 
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
 .header__logo {
   margin-top: 27px;
   margin-bottom: 52px;
   display: block;
 }
+
+@media (min-width: 768px) {
+  .header__logo {
+    align-self: center;
+  }
+}
+
 .header__content {
   display: flex;
   flex-direction: column;
@@ -113,6 +132,21 @@ a {
   align-items: center;
   align-self: center;
 }
+
+@media (min-width: 768px) {
+  .header__content {
+    align-items: flex-start;
+    align-self: flex-start;
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .header__info {
+    margin-left: 41px;
+  }
+}
+
 .header__city {
   font-family: "Roboto";
   font-style: normal;
@@ -120,9 +154,16 @@ a {
   font-size: 14px;
   line-height: 150%;
   color: #a07b50;
-
   margin-bottom: 5px;
 }
+
+@media (min-width: 768px) {
+  .header__city {
+    font-size: 16px;
+line-height: 24px;
+  }
+}
+
 .header__title {
   font-family: "Yeseva One";
   font-style: normal;
@@ -132,6 +173,15 @@ a {
   color: #ffffff;
   margin-bottom: 12px;
 }
+
+@media (min-width: 768px) {
+  .header__title {
+    width: 350px;
+    font-size: 52px;
+    line-height: 60px;
+  }
+}
+
 .header__lead {
   font-family: "Roboto";
   font-style: normal;
@@ -142,6 +192,73 @@ a {
   color: #a07b50;
 
   margin-bottom: 38px;
+}
+
+@media (min-width: 768px) {
+  .header__lead {
+      font-size: 16px;
+  line-height: 24px;
+  width: 320px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .header__button {
+    margin-left: 41px;
+    margin-bottom: 150px;
+  }
+}
+
+.header__social {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header__social {
+    display: block;
+    margin-left: 41px;
+  }
+}
+
+.header__social-list {
+  display: flex;
+  align-items: center;
+}
+
+.header__social-item {
+margin-right: 12px;
+}
+
+.header__social-item:last-child {
+  margin-right: 0;
+}
+
+.header__social-vk {
+  display: block;
+  font-size: 0;
+  background-image: url("./img/header/vk-tablet.svg");
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 8px;
+}
+
+.header__social-twitter {
+  display: block;
+  font-size: 0;
+  background-image: url("./img/header/twitter-tablet.svg");
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 10px;
+}
+
+.header__social-facebook {
+  display: block;
+  font-size: 0;
+  background-image: url("./img/header/facebook-tablet.svg");
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 11px;
 }
 
 .pets {
@@ -226,6 +343,16 @@ a {
   display: inline-block;
   color: #ffffff;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .button {
+    width: 200px;
+    height: 53px;
+    padding: 18px;
+    font-size: 14px;
+line-height: 16px;
+  }
 }
 
 .pets__button-wrapper {
@@ -451,11 +578,11 @@ a {
 }
 
 .veterinary {
-background-image: url("./img/section-advantages/vet-care.svg");
-background-repeat: no-repeat;
-background-position: bottom;
-height: 145px;
-margin-bottom: 14px;
+  background-image: url("./img/section-advantages/vet-care.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 145px;
+  margin-bottom: 14px;
 }
 
 .counselting {
@@ -698,19 +825,19 @@ margin-bottom: 14px;
 }
 
 .team__social-facebook {
-background-image: url("./img/section-team/facebook.svg");
-background-repeat: no-repeat;
-display: block;
-width: 5px;
-height: 12px;
+  background-image: url("./img/section-team/facebook.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 5px;
+  height: 12px;
 }
 
 .team__social-twitter {
-background-image: url("./img/section-team/twitter.svg");
-background-repeat: no-repeat;
-display: block;
-width: 16px;
-height: 12px;
+  background-image: url("./img/section-team/twitter.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 16px;
+  height: 12px;
 }
 
 .team__social-vk {
