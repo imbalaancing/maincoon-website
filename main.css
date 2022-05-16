@@ -303,6 +303,13 @@ a {
   margin-bottom: 24px;
 }
 
+@media (min-width: 768px) {
+  .pets__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
 .pets__lead {
   font-family: "Roboto";
   font-style: normal;
@@ -314,6 +321,17 @@ a {
   margin-bottom: 29px;
 }
 
+@media (min-width: 768px) {
+  .pets__lead {
+    font-size: 16px;
+    line-height: 26px;
+    width: 516px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
 .pets__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -322,6 +340,14 @@ a {
       justify-content: space-around;
   padding: 0;
   margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .pets__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .pets__tab {
@@ -342,6 +368,17 @@ a {
   color: #ffffff;
 }
 
+@media (min-width: 768px) {
+  .pets__item {
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .pets__item:last-child {
+    margin-right: 0;
+  }
+}
+
 .pets__item input {
   display: none;
 }
@@ -349,6 +386,57 @@ a {
 .pets__slider {
   position: relative;
   margin-bottom: 11px;
+}
+
+@media (min-width: 768px) {
+  .pets__slider {
+    height: 533px;
+  }
+}
+
+.pets__slider-item {
+  display: block;
+}
+
+.pets__slider-img {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .pets__slider-img {
+    display: block;
+  }
+}
+
+.pets__slider-img--active {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .pets__slider-img--left {
+    position: absolute;
+    bottom: 36%;
+    right: 25%;
+    z-index: 3;
+  }
+  .pets__slider-img--right {
+    position: absolute;
+    bottom: 36%;
+    right: 14%;
+    z-index: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .pets__slider-img--active {
+    max-width: 474px;
+    height: 500px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    left: 20%;
+    z-index: 4;
+  }
 }
 
 .button {
@@ -404,6 +492,12 @@ a {
   left: -2px;
 }
 
+@media (min-width: 768px) {
+  .slider__prev {
+    background-image: url("./img/section-pets/arrow-prev-tablet.svg");
+  }
+}
+
 .slider__next {
   background-image: url("./img/svg/arrow-right.svg");
   background-repeat: no-repeat;
@@ -417,6 +511,12 @@ a {
   border: none;
   background-color: transparent;
   right: -2px;
+}
+
+@media (min-width: 768px) {
+  .slider__next {
+    background-image: url("./img/section-pets/arrow-next-tablet.svg");
+  }
 }
 
 .breed-features {
