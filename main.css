@@ -347,6 +347,7 @@ a {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 45px;
   }
 }
 
@@ -391,6 +392,7 @@ a {
 @media (min-width: 768px) {
   .pets__slider {
     height: 533px;
+    margin-bottom: 55px;
   }
 }
 
@@ -416,23 +418,19 @@ a {
   .pets__slider-img--left {
     position: absolute;
     bottom: 36%;
-    right: 25%;
+    right: 36%;
     z-index: 3;
   }
   .pets__slider-img--right {
     position: absolute;
     bottom: 36%;
-    right: 14%;
+    right: 4%;
     z-index: 2;
   }
 }
 
 @media (min-width: 768px) {
   .pets__slider-img--active {
-    max-width: 474px;
-    height: 500px;
-    -o-object-fit: cover;
-    object-fit: cover;
     position: absolute;
     left: 20%;
     z-index: 4;
@@ -590,11 +588,41 @@ a {
   border: 1px solid #a07b50;
 }
 
+@media (min-width: 768px) {
+  .breed-features__image::before {
+    top: 22%;
+    left: 4%;
+    width: 342px;
+    height: 349px;
+  }
+  .breed-features__image::after {
+    top: 16%;
+    left: -5%;
+    width: 416px;
+    height: 424px;
+  }
+}
+
 .breed-features__list {
   margin-top: 43px;
   width: 255px;
   line-height: 20px;
   position: relative;
+}
+
+@media (min-width: 768px) {
+  .breed-features__list-wrapper {
+    position: relative;
+    height: 0;
+    width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .breed-features__list {
+    position: unset;
+    width: 0;
+  }
 }
 
 .breed-features__item {
@@ -609,8 +637,22 @@ a {
   margin-bottom: 21px;
 }
 
+@media (min-width: 768px) {
+  .breed-features__item {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+}
+
 .breed-features__item:last-child {
   margin-bottom: 55px;
+}
+
+@media (min-width: 768px) {
+  .breed-features__item:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .friendly::before {
@@ -655,6 +697,60 @@ a {
   border-radius: 50%;
   background-color: #a07b50;
   left: -18px;
+}
+
+@media (min-width: 768px) {
+  .friendly::before {
+    top: 26px;
+    width: 10px;
+    height: 10px;
+    left: 107%;
+  }
+  .friendly {
+    position: absolute;
+    bottom: 365px;
+    left: -175px;
+    width: 160px;
+    text-align: right;
+  }
+  .trainable::before {
+    top: 0px;
+    width: 10px;
+    height: 10px;
+    left: -19px;
+  }
+  .trainable {
+    position: absolute;
+    bottom: 241px;
+    left: 402px;
+    width: 132px;
+    text-align: left;
+  }
+  .large::before {
+    top: -12px;
+    width: 10px;
+    height: 10px;
+    left: -20px;
+  }
+  .large {
+    position: absolute;
+    bottom: 121px;
+    left: 378px;
+    width: 110px;
+  }
+  .appearance::before {
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    left: 150px;
+  }
+  .appearance {
+    position: absolute;
+    bottom: 164px;
+    left: -166px;
+    width: 139px;
+    text-align: right;
+  }
 }
 
 .advantages__wrapper {

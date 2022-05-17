@@ -100,7 +100,10 @@
                     <button class="slider__prev" type="button"></button>
                     <button class="slider__next" type="button"></button>
                     <div class="pets__slider-item">
+                      <picture>
+                        <source srcset="./img/section-pets/pets-list-1-tablet.png" media="(min-width: 768px)">
                         <img src="./img/section-pets/pets-list-1.png" alt="graycoon" class="pets__slider-img pets__slider-img--active">
+                      </picture>
                     </div>
                     <div class="pets__slider-item">
                       <img src="./img/section-pets/pets-list-3-tablet.png" alt="graycoon" class="pets__slider-img pets__slider-img--left">
@@ -122,14 +125,20 @@
             <h2 class="breed-features__title">Особенности породы</h2>
             <p class="breed-features__lead">Мейн-Кун - это порода, которая вызывает к себе уважение. Приобретая в свой дом этого питомца, вы получите умное животное, которому нет равных </p>
             <div class="breed-features__image">
-              <img src="./img/section-breed-features/bf-coon.png" alt="gingercoon">
+              <picture>
+                <source srcset="./img/section-breed-features/bf-coon-tablet.png" media="(min-width: 768px)">
+                <img src="./img/section-breed-features/bf-coon.png" alt="gingercoon">
+              </picture>
             </div>
-            <ul class="breed-features__list">
-              <li class="breed-features__item friendly">Легко уживается в семьях с детьми или другими животными</li>
-              <li class="breed-features__item trainable">Выполняет команды как дрессированная собака</li>
-              <li class="breed-features__item large">Вес может достигать 12 кг, а длина 1 м</li>
-              <li class="breed-features__item appearance">Внешний вид этой кошки похож на дикую рысь</li>
-            </ul>
+            <div class="breed-features__list-wrapper">
+              <ul class="breed-features__list">
+                <li class="breed-features__item friendly">Легко уживается в семьях с детьми или другими животными</li>
+                <li class="breed-features__item trainable">Выполняет команды как дрессированная собака</li>
+                <li class="breed-features__item large">Вес может достигать 12 кг, а длина 1 м</li>
+                <li class="breed-features__item appearance">Внешний вид этой кошки похож на дикую рысь</li>
+              </ul>
+            </div>
+
           </div>
         </div>
       </section>
