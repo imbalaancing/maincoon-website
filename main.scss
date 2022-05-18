@@ -284,7 +284,7 @@ a {
 @media (min-width: 768px) {
   .pets__title {
     font-size: 36px;
-line-height: 42px;
+    line-height: 42px;
   }
 }
 
@@ -346,7 +346,7 @@ line-height: 42px;
   .pets__item {
     margin-right: 50px;
     font-size: 18px;
-line-height: 21px;
+    line-height: 21px;
   }
 
   .pets__item:last-child {
@@ -390,16 +390,16 @@ line-height: 21px;
 
 @media (min-width: 768px) {
   .pets__slider-img--left {
-    position: absolute; 
-    bottom: 36%; 
-    right: 36%; 
+    position: absolute;
+    bottom: 36%;
+    right: 36%;
     z-index: 3;
   }
 
   .pets__slider-img--right {
-    position: absolute; 
-    bottom: 36%; 
-    right: 4%; 
+    position: absolute;
+    bottom: 36%;
+    right: 4%;
     z-index: 2;
   }
 }
@@ -510,6 +510,13 @@ line-height: 21px;
   color: #ffffff;
 }
 
+@media (min-width: 768px) {
+  .breed-features__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
 .breed-features__lead {
   font-family: "Roboto";
   font-style: normal;
@@ -520,6 +527,14 @@ line-height: 21px;
   color: #a07b50;
   margin-bottom: 25px;
   width: 271px;
+}
+
+@media (min-width: 768px) {
+  .breed-features__lead {
+    font-size: 16px;
+    line-height: 26px;
+    width: 443px;
+  }
 }
 
 .breed-features__image {
@@ -557,7 +572,6 @@ line-height: 21px;
     left: 4%;
     width: 342px;
     height: 349px;
-
   }
 
   .breed-features__image::after {
@@ -565,7 +579,6 @@ line-height: 21px;
     left: -5%;
     width: 416px;
     height: 424px;
-
   }
 }
 
@@ -585,11 +598,10 @@ line-height: 21px;
 }
 
 @media (min-width: 768px) {
-.breed-features__list {
-  position: unset;
-  width: 0;
-}
-
+  .breed-features__list {
+    position: unset;
+    width: 0;
+  }
 }
 
 .breed-features__item {
@@ -682,13 +694,12 @@ line-height: 21px;
     width: 160px;
     text-align: right;
   }
-  
+
   .trainable::before {
     top: 0px;
     width: 10px;
     height: 10px;
     left: -19px;
-
   }
 
   .trainable {
@@ -698,7 +709,7 @@ line-height: 21px;
     width: 132px;
     text-align: left;
   }
-  
+
   .large::before {
     top: -12px;
     width: 10px;
@@ -712,7 +723,7 @@ line-height: 21px;
     left: 378px;
     width: 110px;
   }
-  
+
   .appearance::before {
     top: 6px;
     width: 10px;
@@ -747,6 +758,14 @@ line-height: 21px;
   margin-bottom: 23px;
 }
 
+@media (min-width: 768px) {
+  .advantages__title {
+    font-size: 36px;
+    line-height: 42px;
+    width: unset;
+  }
+}
+
 .advantages__lead {
   font-family: "Roboto";
   font-style: normal;
@@ -757,6 +776,13 @@ line-height: 21px;
 
   color: #a07b50;
   margin-bottom: 37px;
+}
+
+@media (min-width: 768px) {
+  .advantages__lead {
+    font-size: 16px;
+    line-height: 23px;
+  }
 }
 
 .advantages__list {
@@ -772,6 +798,14 @@ line-height: 21px;
   margin-bottom: 30px;
 }
 
+@media (min-width: 768px) {
+  .advantages__item {
+    width: 360px;
+    min-height: 307px;
+    margin-bottom: 42px;
+  }
+}
+
 .advantages__content {
   font-family: "Roboto";
   font-style: normal;
@@ -781,6 +815,13 @@ line-height: 21px;
   text-align: center;
   color: #ffffff;
   height: 248px;
+}
+
+@media (min-width: 768px) {
+  .advantages__content {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 .veterinary {
@@ -805,6 +846,23 @@ line-height: 21px;
   background-position: bottom;
   height: 145px;
   margin-bottom: 14px;
+}
+
+@media (min-width: 768px) {
+  .veterinary {
+    background-image: url("./img/section-advantages/vet-care-tablet.svg");
+    margin-bottom: 36px;
+  }
+
+  .counselting {
+    background-image: url("./img/section-advantages/counselting-tablet.svg");
+    margin-bottom: 36px;
+  }
+
+  .select-food {
+    background-image: url("./img/section-advantages/food-select-tablet.svg");
+    margin-bottom: 36px;
+  }
 }
 
 .advantages__content span {

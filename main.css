@@ -547,6 +547,13 @@ a {
   color: #ffffff;
 }
 
+@media (min-width: 768px) {
+  .breed-features__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
 .breed-features__lead {
   font-family: "Roboto";
   font-style: normal;
@@ -557,6 +564,14 @@ a {
   color: #a07b50;
   margin-bottom: 25px;
   width: 271px;
+}
+
+@media (min-width: 768px) {
+  .breed-features__lead {
+    font-size: 16px;
+    line-height: 26px;
+    width: 443px;
+  }
 }
 
 .breed-features__image {
@@ -771,6 +786,14 @@ a {
   margin-bottom: 23px;
 }
 
+@media (min-width: 768px) {
+  .advantages__title {
+    font-size: 36px;
+    line-height: 42px;
+    width: unset;
+  }
+}
+
 .advantages__lead {
   font-family: "Roboto";
   font-style: normal;
@@ -780,6 +803,13 @@ a {
   text-align: center;
   color: #a07b50;
   margin-bottom: 37px;
+}
+
+@media (min-width: 768px) {
+  .advantages__lead {
+    font-size: 16px;
+    line-height: 23px;
+  }
 }
 
 .advantages__list {
@@ -802,6 +832,14 @@ a {
   margin-bottom: 30px;
 }
 
+@media (min-width: 768px) {
+  .advantages__item {
+    width: 360px;
+    min-height: 307px;
+    margin-bottom: 42px;
+  }
+}
+
 .advantages__content {
   font-family: "Roboto";
   font-style: normal;
@@ -811,6 +849,13 @@ a {
   text-align: center;
   color: #ffffff;
   height: 248px;
+}
+
+@media (min-width: 768px) {
+  .advantages__content {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 .veterinary {
@@ -835,6 +880,21 @@ a {
   background-position: bottom;
   height: 145px;
   margin-bottom: 14px;
+}
+
+@media (min-width: 768px) {
+  .veterinary {
+    background-image: url("./img/section-advantages/vet-care-tablet.svg");
+    margin-bottom: 36px;
+  }
+  .counselting {
+    background-image: url("./img/section-advantages/counselting-tablet.svg");
+    margin-bottom: 36px;
+  }
+  .select-food {
+    background-image: url("./img/section-advantages/food-select-tablet.svg");
+    margin-bottom: 36px;
+  }
 }
 
 .advantages__content span {
