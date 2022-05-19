@@ -878,6 +878,12 @@ a {
   background-size: cover;
 }
 
+@media (min-width: 768px) {
+  .care {
+    background-image: url("./img/section-care/bg-cat-tablet.jpg");
+  }
+}
+
 .care__wrapper {
   padding-top: 10px;
   padding-bottom: 46px;
@@ -903,10 +909,23 @@ a {
   flex-direction: column;
 }
 
+@media (min-width: 768px) {
+  .care__list {
+    align-items: center;
+  }
+}
+
 .care__item {
   margin-bottom: 30px;
   width: 290px;
   min-height: 151px;
+}
+
+@media (min-width: 768px) {
+  .care__item {
+    width: 558px;
+    height: 168px;
+  }
 }
 
 .care__link {
@@ -916,6 +935,14 @@ a {
   padding-top: 14px;
   padding-bottom: 25px;
   padding-left: 25px;
+}
+
+@media (min-width: 768px) {
+  .care__link {
+    padding-top: 39px;
+    padding-bottom: 43px;
+    padding-left: 49px;
+  }
 }
 
 .care__link::after {
@@ -931,6 +958,13 @@ a {
   background-image: url("./img/svg/show-details.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+@media (min-width: 768px) {
+  .care__link::after {
+    width: 59px;
+    background-image: url("./img/section-care/arrow-tablet.svg");
+  }
 }
 
 .care__link-title {
@@ -951,6 +985,12 @@ a {
   line-height: 140%;
   color: #ffffff;
   max-width: 211px;
+}
+
+@media (min-width: 768px) {
+  .care__link-info {
+    min-width: 420px;
+  }
 }
 
 .team {
