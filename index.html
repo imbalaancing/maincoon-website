@@ -211,13 +211,18 @@
             <div class="team__slider">
               <div class="team__slider-outer"></div>
               <div class="team__img-wrapper">
-                <img src="./img/section-team/employee.jpg" alt="employee in our team">
+                <picture>
+                  <source srcset="./img/section-team/employee-tablet.jpg" media="(min-width: 768px)">
+                  <img src="./img/section-team/employee.jpg" alt="employee in our team">
+                </picture>
               </div>
               <button class="team__button-prev"></button>
               <button class="team__button-next"></button>
-              <h3 class="team__slider-title">Серёжа Попов</h3>
-              <span class="team__slider-subtitle">Основатель питомника</span>
-              <p class="team__slider-lead">Наш питомник занимается разведением Мейн-Кунов на протяжениие 15 лет. <br>Мы в ответе за каждого приобретенного вами питомца</p>
+              <div class="team__slider-info">
+                <h3 class="team__slider-title">Серёжа Попов</h3>
+                <span class="team__slider-subtitle">Основатель питомника</span>
+                <p class="team__slider-lead">Наш питомник занимается разведением Мейн-Кунов на протяжениие 15 лет. <br>Мы в ответе за каждого приобретенного вами питомца</p>
+              </div>
             </div>
             <ul class="team__social-list">
               <li class="team__social-item">
