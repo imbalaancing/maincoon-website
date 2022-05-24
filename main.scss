@@ -97,6 +97,7 @@ a {
 @media (min-width: 768px) {
   .header {
     background-image: url("./img/header/header-cat-tablet.png");
+    height: 594px;
   }
 }
 
@@ -117,6 +118,12 @@ a {
   margin-top: 27px;
   margin-bottom: 52px;
   display: block;
+}
+
+@media (min-width: 768px) {
+  .header__logo {
+  margin-bottom: 90px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -143,7 +150,7 @@ a {
 
 @media (min-width: 768px) {
   .header__info {
-    margin-left: 41px;
+    margin-left: 30px;
   }
 }
 
@@ -161,6 +168,7 @@ a {
   .header__city {
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 21px;
   }
 }
 
@@ -179,6 +187,7 @@ a {
     width: 350px;
     font-size: 52px;
     line-height: 60px;
+    margin-bottom: 17px;
   }
 }
 
@@ -199,13 +208,14 @@ a {
     font-size: 16px;
     line-height: 24px;
     width: 320px;
+    margin-bottom: 51px;
   }
 }
 
 @media (min-width: 768px) {
   .header__button {
-    margin-left: 41px;
-    margin-bottom: 150px;
+    margin-left: 28px;
+    margin-bottom: 60px;
   }
 }
 
@@ -216,7 +226,7 @@ a {
 @media (min-width: 768px) {
   .header__social {
     display: block;
-    margin-left: 41px;
+    margin-left: 28px;
   }
 }
 
@@ -285,6 +295,8 @@ a {
   .pets__title {
     font-size: 36px;
     line-height: 42px;
+    margin-top: 98px;
+    margin-bottom: 22px;
   }
 }
 
@@ -305,6 +317,7 @@ a {
     line-height: 26px;
     width: 516px;
     align-self: center;
+    margin-bottom: 45px;
   }
 }
 
@@ -366,7 +379,7 @@ a {
 @media (min-width: 768px) {
   .pets__slider {
     height: 533px;
-    margin-bottom: 55px;
+    margin-bottom: 11px;
   }
 }
 
@@ -399,7 +412,7 @@ a {
   .pets__slider-img--right {
     position: absolute;
     bottom: 36%;
-    right: 4%;
+    right: 11%;
     z-index: 2;
   }
 }
@@ -407,8 +420,11 @@ a {
 @media (min-width: 768px) {
   .pets__slider-img--active {
     position: absolute;
-    left: 20%;
+    left: 17%;
+    bottom: 8%;
     z-index: 4;
+    width: 471px;
+    height: 492px;
   }
 }
 
@@ -462,6 +478,8 @@ a {
 @media (min-width: 768px) {
   .slider__prev {
     background-image: url("./img/section-pets/arrow-prev-tablet.svg");
+    top: 43%;
+    left: 14px;
   }
 }
 
@@ -483,6 +501,8 @@ a {
 @media (min-width: 768px) {
   .slider__next {
     background-image: url("./img/section-pets/arrow-next-tablet.svg");
+    top: 43%;
+    right: 10px;
   }
 }
 
@@ -514,6 +534,8 @@ a {
   .breed-features__title {
     font-size: 36px;
     line-height: 42px;
+    margin-top: 91px;
+    margin-bottom: 21px;
   }
 }
 
@@ -534,6 +556,7 @@ a {
     font-size: 16px;
     line-height: 26px;
     width: 443px;
+    margin-bottom: 0;
   }
 }
 
@@ -568,17 +591,22 @@ a {
 
 @media (min-width: 768px) {
   .breed-features__image::before {
-    top: 22%;
+    top: 21%;
     left: 4%;
     width: 342px;
     height: 349px;
   }
 
   .breed-features__image::after {
-    top: 16%;
+    top: 15%;
     left: -5%;
     width: 416px;
     height: 424px;
+  }
+
+  .breed-features__image {
+    margin-left: 45px;
+    margin-top: -9px;
   }
 }
 
@@ -680,38 +708,40 @@ a {
 
 @media (min-width: 768px) {
   .friendly::before {
-    top: 26px;
+    top: 6px;
 
     width: 10px;
     height: 10px;
-    left: 107%;
+    left: 110%;
   }
 
   .friendly {
     position: absolute;
-    bottom: 365px;
-    left: -175px;
+    bottom: 373px;
+    left: -152px;
     width: 160px;
     text-align: right;
+    font-size: 14px;
+    line-height: 21px;
   }
 
   .trainable::before {
-    top: 0px;
+    top: 4px;
     width: 10px;
     height: 10px;
-    left: -19px;
+    left: -22px;
   }
 
   .trainable {
     position: absolute;
-    bottom: 241px;
-    left: 402px;
+    bottom: 264px;
+    left: 427px;
     width: 132px;
     text-align: left;
   }
 
   .large::before {
-    top: -12px;
+    top: 6px;
     width: 10px;
     height: 10px;
     left: -20px;
@@ -719,8 +749,8 @@ a {
 
   .large {
     position: absolute;
-    bottom: 121px;
-    left: 378px;
+    bottom: 142px;
+    left: 402px;
     width: 110px;
   }
 
@@ -733,8 +763,8 @@ a {
 
   .appearance {
     position: absolute;
-    bottom: 164px;
-    left: -166px;
+    bottom: 170px;
+    left: -142px;
     width: 139px;
     text-align: right;
   }
@@ -743,6 +773,12 @@ a {
 .advantages__wrapper {
   margin-top: 53px;
   margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .advantages__wrapper {
+    margin-top: 78px;
+  }
 }
 
 .advantages__title {
@@ -782,6 +818,7 @@ a {
   .advantages__lead {
     font-size: 16px;
     line-height: 23px;
+    margin-bottom: 59px;
   }
 }
 
@@ -852,16 +889,19 @@ a {
   .veterinary {
     background-image: url("./img/section-advantages/vet-care-tablet.svg");
     margin-bottom: 36px;
+    height: 174px;
   }
 
   .counselting {
     background-image: url("./img/section-advantages/counselting-tablet.svg");
-    margin-bottom: 36px;
+    margin-bottom: 40px;
+    height: 169px;
   }
 
   .select-food {
     background-image: url("./img/section-advantages/food-select-tablet.svg");
-    margin-bottom: 36px;
+    margin-bottom: 32px;
+    height: 181px;
   }
 }
 
@@ -869,6 +909,12 @@ a {
   max-width: 213px;
   margin: 0 auto;
   display: block;
+}
+
+@media (min-width: 768px) {
+  .advantages__content span {
+    max-width: 245px;
+  }
 }
 
 .care {
