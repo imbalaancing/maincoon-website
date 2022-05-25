@@ -122,7 +122,7 @@ a {
 
 @media (min-width: 768px) {
   .header__logo {
-  margin-bottom: 90px;
+    margin-bottom: 90px;
   }
 }
 
@@ -510,6 +510,12 @@ a {
   background: #1f1c1d;
 }
 
+@media (min-width: 768px) {
+  .breed-features {
+    height: 832px;
+  }
+}
+
 .breed-features__wrapper {
   display: flex;
   flex-direction: column;
@@ -770,6 +776,12 @@ a {
   }
 }
 
+@media (min-width: 768px) {
+  .advantages {
+    height: 1204px;
+  }
+}
+
 .advantages__wrapper {
   margin-top: 53px;
   margin-bottom: 30px;
@@ -777,7 +789,7 @@ a {
 
 @media (min-width: 768px) {
   .advantages__wrapper {
-    margin-top: 78px;
+    margin-top: 84px;
   }
 }
 
@@ -948,6 +960,19 @@ a {
   color: #ffffff;
 }
 
+@media (min-width: 768px) {
+  .care__title {
+    font-size: 36px;
+    line-height: 42px;
+    width: auto;
+    margin-top: 135px;
+  }
+
+  br {
+    display: none;
+  }
+}
+
 .care__list {
   display: flex;
   margin: 0 auto;
@@ -958,6 +983,7 @@ a {
 @media (min-width: 768px) {
   .care__list {
     align-items: center;
+    margin-left: 22px;
   }
 }
 
@@ -969,8 +995,24 @@ a {
 
 @media (min-width: 768px) {
   .care__item {
-    width: 558px;
-    height: 168px;
+    min-width: 558px;
+    min-height: 156px;
+    margin-bottom: 28px;
+  }
+
+  .claws {
+    min-width: 558px;
+    min-height: 156px;
+  }
+
+  .wool {
+    min-width: 558px;
+    min-height: 156px;
+  }
+
+  .earsandeyes {
+    min-width: 558px;
+    min-height: 173px;
   }
 }
 
@@ -985,9 +1027,9 @@ a {
 
 @media (min-width: 768px) {
   .care__link {
-    padding-top: 39px;
-    padding-bottom: 43px;
-    padding-left: 49px;
+    padding-top: 34px;
+    padding-bottom: 38px;
+    padding-left: 48px;
   }
 }
 
@@ -1023,6 +1065,13 @@ a {
   padding-bottom: 10px;
 }
 
+@media (min-width: 768px) {
+  .care__link-title {
+    font-size: 22px;
+line-height: 26px;
+  }
+}
+
 .care__link-info {
   font-family: "Roboto";
   font-style: normal;
@@ -1045,7 +1094,7 @@ a {
 
 @media (min-width: 768px) {
   .team {
-    height: 828px;
+    height: 855px;
     background-color: #151313;
   }
 }
@@ -1075,6 +1124,8 @@ a {
   .team__title {
     font-size: 36px;
     line-height: 42px;
+    padding-top: 112px;
+    padding-bottom: 20px;
   }
 }
 
@@ -1094,7 +1145,8 @@ a {
   .team__lead {
     font-size: 16px;
     line-height: 25px;
-    width: unset;
+    width: 500px;
+    margin-bottom: 18px;
   }
 }
 
@@ -1117,9 +1169,10 @@ a {
 
 @media (min-width: 768px) {
   .team__slider-outer {
-    width: 600px;
+    width: 603px;
     height: 362px;
-    top: 13%;
+    top: 12%;
+    right: -22%;
   }
 
   .team__slider-outer::after {
@@ -1129,15 +1182,15 @@ a {
     height: 409px;
     border: 0.5px solid rgba(160, 123, 80, 0.43);
     bottom: -22px;
-    right: -24px;
+    right: -21px;
   }
 }
 
 @media (min-width: 768px) {
   .team__img-wrapper {
     position: absolute;
-    top: 105%;
-    left: 65%;
+    top: 108%;
+    left: 62%;
   }
 }
 
@@ -1146,6 +1199,7 @@ a {
     display: flex;
     flex-direction: column;
     margin-top: 90px;
+    margin-right: 8px;
     align-items: flex-start;
     width: 399px;
   }
@@ -1186,14 +1240,14 @@ a {
 @media (min-width: 768px) {
   .team__button-prev {
     background-image: url("./img/section-team/arrow-prev-tablet.svg");
-    top: 164%;
-    right: 44%;
+    top: 170%;
+    right: 45%;
   }
 
   .team__button-next {
     background-image: url("./img/section-team/arrow-next-tablet.svg");
-    top: 164%;
-    right: -29%;
+    top: 170%;
+    right: -24%;
   }
 }
 
@@ -1231,6 +1285,7 @@ a {
   .team__slider-subtitle {
     font-size: 16px;
     line-height: 22px;
+    padding-bottom: 24px;
   }
 }
 
@@ -1310,6 +1365,12 @@ a {
   padding-bottom: 28px;
 }
 
+@media (min-width: 768px) {
+  .faq__wrapper {
+    padding-bottom: 41px;
+  }
+}
+
 .faq__title {
   font-family: "Yeseva One";
   font-style: normal;
@@ -1326,6 +1387,9 @@ a {
   .faq__title {
     font-size: 36px;
     line-height: 42px;
+    padding-top: 137px;
+    padding-bottom: 19px;
+    
   }
 }
 
@@ -1347,6 +1411,7 @@ a {
     font-size: 16px;
     line-height: 23px;
     width: auto;
+    padding-bottom: 53px;
   }
 }
 
@@ -1355,6 +1420,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 116px;
   }
 }
 
@@ -1365,6 +1431,7 @@ a {
 @media (min-width: 768px) {
   .faq__item {
     width: 553px;
+    margin-bottom: 26px;
   }
 }
 
@@ -1473,6 +1540,18 @@ a {
   .faq__question-active::after {
     width: 72px;
   }
+
+  .faq__question-second {
+    min-height: 83px;
+  }
+
+  .faq__question-third {
+    min-height: 90px;
+  }
+
+  .faq__question-fourth {
+    min-height: 90px;
+  }
 }
 
 .faq__answer {
@@ -1487,7 +1566,7 @@ a {
 
 @media (min-width: 768px) {
   .faq__answer {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 154%;
   }
 }
@@ -1500,7 +1579,7 @@ a {
 
 @media (min-width: 768px) {
   .faq__answer-show {
-    padding: 25px 140px 26px 23px;
+    padding: 23px 151px 48px 28px;
   }
 }
 
@@ -1516,7 +1595,7 @@ a {
 
 @media (min-width: 768px) {
   .reviews__wrapper {
-    padding-bottom: 90px;
+    padding-bottom: 75px;
   }
 }
 
@@ -1533,7 +1612,8 @@ a {
   .reviews__slider-outer {
     width: 578px;
     height: 368px;
-    bottom: -15px;
+    bottom: 8px;
+    right: 69px;
   }
 }
 
@@ -1552,6 +1632,8 @@ a {
   .reviews__title {
     font-size: 36px;
     line-height: 42px;
+    margin-left: 20px;
+    margin-bottom: 49px;
   }
 }
 
@@ -1574,6 +1656,14 @@ a {
   margin-bottom: 32px;
 }
 
+@media (min-width: 768px) {
+  .reviews__img {
+    width: 306px;
+    height: 206px;
+    margin-left: 25px;
+  }
+}
+
 .reviews__button-prev {
   background-image: url("./img/svg/arrow-left.svg");
   background-repeat: no-repeat;
@@ -1588,8 +1678,6 @@ a {
   right: 96%;
   z-index: 2;
 }
-
-
 
 .reviews__button-next {
   background-image: url("./img/svg/arrow-right.svg");
@@ -1611,16 +1699,16 @@ a {
     background-image: url("./img/section-reviews/arrow-prev-tablet.svg");
     width: 59px;
     height: 16px;
-    right: 70%;
-    top: 26%;
+    right: 73%;
+    top: 28%;
   }
 
   .reviews__button-next {
     background-image: url("./img/section-reviews/arrow-next-tablet.svg");
     width: 59px;
     height: 16px;
-    right: 22%;
-    top: 26%;
+    right: 15%;
+    top: 28%;
   }
 }
 
@@ -1662,6 +1750,7 @@ a {
     font-size: 14px;
     line-height: 23px;
     min-width: 356px;
+    margin-bottom: 28px;
   }
 }
 
@@ -1672,6 +1761,12 @@ a {
   margin-bottom: 40px;
 }
 
+@media (min-width: 768px) {
+  .reviews__slider-social {
+    margin-left: 32px;
+  }
+}
+
 .reviews__slider-time {
   font-family: "Roboto";
   font-style: normal;
@@ -1679,6 +1774,7 @@ a {
   font-size: 12px;
   line-height: 140%;
   color: #a07b50;
+  
 }
 
 @media (min-width: 768px) {
@@ -1740,7 +1836,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 39px 47px 38px 54px;
+    padding: 39px 32px 46px 40px;
   }
 }
 
@@ -1762,6 +1858,7 @@ a {
     padding-top: 0;
     margin-bottom: 0;
     order: 2;
+    margin-left: 46px;
   }
 }
 
@@ -1774,7 +1871,7 @@ a {
   text-align: center;
   margin-bottom: 21px;
   color: #fdf2e6;
-} 
+}
 
 @media (min-width: 768px) {
   .footer__phone {
@@ -1799,6 +1896,12 @@ a {
 
 .footer__social-item {
   margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .footer__social-item {
+    margin-right: 8px;
+  }
 }
 
 .footer__social-item:last-child {
