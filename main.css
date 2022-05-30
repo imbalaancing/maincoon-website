@@ -1378,13 +1378,19 @@ a {
 @media (min-width: 768px) {
   .team__social-list {
     position: absolute;
-    bottom: 30px;
-    left: 24%;
+    bottom: 27px;
+    left: 23%;
   }
 }
 
 .team__social-item {
   margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .team__social-item {
+    margin-right: 11px;
+  }
 }
 
 .team__social-item:last-child {
@@ -1415,6 +1421,24 @@ a {
   height: 10px;
 }
 
+@media (min-width: 768px) {
+  .team__social-facebook {
+    background-image: url("./img/section-team/facebook-tablet.svg");
+    width: 7px;
+    height: 15px;
+  }
+  .team__social-twitter {
+    background-image: url("./img/section-team/twitter-tablet.svg");
+    width: 20px;
+    height: 15px;
+  }
+  .team__social-vk {
+    background-image: url("./img/section-team/vk-tablet.svg");
+    width: 21px;
+    height: 13px;
+  }
+}
+
 .faq {
   background-color: #1f1c1d;
 }
@@ -1425,7 +1449,7 @@ a {
 
 @media (min-width: 768px) {
   .faq__wrapper {
-    padding-bottom: 41px;
+    padding-bottom: 43px;
   }
 }
 
@@ -1484,7 +1508,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-left: 116px;
+    margin-left: 113px;
   }
 }
 
@@ -1522,7 +1546,7 @@ a {
     width: 553px;
     font-size: 16px;
     line-height: 19px;
-    padding: 21px 140px 21px 25px;
+    padding: 19px 140px 21px 25px;
   }
   .faq__question-active::before {
     content: "";
@@ -1668,8 +1692,8 @@ a {
 @media (min-width: 768px) {
   .reviews__slider-outer {
     width: 578px;
-    height: 368px;
-    bottom: 8px;
+    height: 370px;
+    bottom: 11px;
     right: 69px;
   }
 }
@@ -1764,14 +1788,14 @@ a {
     width: 59px;
     height: 16px;
     right: 73%;
-    top: 28%;
+    top: 28.5%;
   }
   .reviews__button-next {
     background-image: url("./img/section-reviews/arrow-next-tablet.svg");
     width: 59px;
     height: 16px;
-    right: 15%;
-    top: 28%;
+    right: 15.5%;
+    top: 28.5%;
   }
 }
 
@@ -1851,6 +1875,7 @@ a {
   .reviews__slider-time {
     font-size: 12px;
     line-height: 19px;
+    margin-left: 37px;
   }
 }
 
@@ -1858,6 +1883,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 19px;
 }
 
 .reviews__slider-item {
@@ -1892,6 +1918,15 @@ a {
   border: 0.5px solid rgba(160, 123, 80, 0.27);
   padding: 13px;
   margin: -5px;
+}
+
+@media (min-width: 768px) {
+  .reviews__link-twitter {
+    background-image: url("./img/section-reviews/twitter-tablet.svg");
+  }
+  .reviews__link-vk {
+    background-image: url("./img/section-reviews/vk-tablet.svg");
+  }
 }
 
 .footer {
@@ -1982,7 +2017,7 @@ a {
 
 @media (min-width: 768px) {
   .footer__social-list {
-    margin-bottom: 0;
+    margin-bottom: -3px;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
@@ -2025,6 +2060,24 @@ a {
   display: block;
   width: 25px;
   height: 14px;
+}
+
+@media (min-width: 768px) {
+  .footer__link-facebook {
+    background-image: url("./img/footer/facebook-tablet.svg");
+    width: 7px;
+    height: 16px;
+  }
+  .footer__link-twitter {
+    background-image: url("./img/footer/twitter-tablet.svg");
+    width: 22px;
+    height: 16px;
+  }
+  .footer__link-vk {
+    background-image: url("./img/footer/vk-tablet.svg");
+    width: 25px;
+    height: 14px;
+  }
 }
 
 .footer__logo {
