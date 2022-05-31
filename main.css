@@ -103,6 +103,13 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .header {
+    background-image: url("./img/header/header-cat-desktop.png");
+    height: 684px;
+  }
+}
+
 .container {
   width: 320px;
   position: relative;
@@ -113,6 +120,12 @@ a {
 @media (min-width: 768px) {
   .container {
     width: 768px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .container {
+    width: 1366px;
   }
 }
 
@@ -128,11 +141,11 @@ a {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1366px) {
   .header__logo {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
   }
 }
 
@@ -160,6 +173,15 @@ a {
     -ms-flex-item-align: start;
         align-self: flex-start;
     text-align: left;
+  }
+}
+
+@media (min-width: 1366px) {
+  .header__content {
+    width: 700px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -232,6 +254,13 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .header__button {
+    margin-left: 0;
+    margin-right: 120px;
+  }
+}
+
 .header__social {
   display: none;
 }
@@ -240,6 +269,23 @@ a {
   .header__social {
     display: block;
     margin-left: 28px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .header__social {
+    margin-left: 0;
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+  }
+  .header__social::before {
+    content: "";
+    position: absolute;
+    border: 0.5px solid rgba(255, 255, 255, 0.61);
+    padding-top: 77px;
+    bottom: 19%;
+    margin-left: 16px;
   }
 }
 
@@ -252,8 +298,24 @@ a {
           align-items: center;
 }
 
+@media (min-width: 1366px) {
+  .header__social-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .header__social-item {
   margin-right: 12px;
+}
+
+@media (min-width: 1366px) {
+  .header__social-item {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
 }
 
 .header__social-item:last-child {
