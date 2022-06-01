@@ -504,6 +504,17 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .pets__slider-img--left {
+    bottom: 8%;
+    right: 50%;
+  }
+  .pets__slider-img--right {
+    bottom: 60%;
+    right: 50%;
+  }
+}
+
 @media (min-width: 768px) {
   .pets__slider-img--active {
     position: absolute;
@@ -512,6 +523,12 @@ a {
     z-index: 4;
     width: 471px;
     height: 492px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .pets__slider-img--active {
+    left: 53%;
   }
 }
 
@@ -576,6 +593,12 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .slider__prev {
+    display: none;
+  }
+}
+
 .slider__next {
   background-image: url("./img/svg/arrow-right.svg");
   background-repeat: no-repeat;
@@ -596,6 +619,12 @@ a {
     background-image: url("./img/section-pets/arrow-next-tablet.svg");
     top: 43%;
     right: 10px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .slider__next {
+    display: none;
   }
 }
 
