@@ -1136,6 +1136,12 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .care {
+    background-image: url("./img/section-care/bg-cat-desktop.jpg");
+  }
+}
+
 .care__wrapper {
   padding-top: 10px;
   padding-bottom: 46px;
@@ -1181,6 +1187,14 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .care__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 .care__item {
   margin-bottom: 30px;
   width: 290px;
@@ -1210,6 +1224,14 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .care__item {
+    margin-right: 30px;
+    min-height: unset;
+    height: 157px;
+  }
+}
+
 .care__link {
   position: relative;
   display: block;
@@ -1224,6 +1246,34 @@ a {
     padding-top: 34px;
     padding-bottom: 38px;
     padding-left: 48px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .care__link {
+    padding-top: 39px;
+    padding-bottom: 41px;
+    padding-left: 48px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .care__link--earsandeyes {
+    padding-top: 36px;
+    height: 156px;
+  }
+
+  .care__link--food {
+    padding-top: 36px;
+    height: 156px;
+  }
+
+  .care__link--wool {
+    height: 156px;
+  }
+
+  .care__link--claws {
+    height: 156px;
   }
 }
 
