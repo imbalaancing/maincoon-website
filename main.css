@@ -1450,6 +1450,12 @@ a {
   z-index: 1;
 }
 
+@media (min-width: 1366px) {
+  .team__slider {
+    margin-left: 33vh;
+  }
+}
+
 .team__slider-outer {
   position: absolute;
   width: 290px;
@@ -1482,6 +1488,13 @@ a {
     position: absolute;
     top: 108%;
     left: 62%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .team__img-wrapper {
+    top: 3%;
+    left: -39vh;
   }
 }
 
@@ -1545,6 +1558,17 @@ a {
     background-image: url("./img/section-team/arrow-next-tablet.svg");
     top: 170%;
     right: -24%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .team__button-prev {
+    top: 17vh;
+    right: 82vh;
+  }
+  .team__button-next {
+    top: 17vh;
+    left: 52vh;
   }
 }
 
@@ -1626,6 +1650,12 @@ a {
     position: absolute;
     bottom: 27px;
     left: 23%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .team__social-list {
+    left: 49%;
   }
 }
 
