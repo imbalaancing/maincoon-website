@@ -106,7 +106,8 @@ a {
 @media (min-width: 1366px) {
   .header {
     background-image: url("./img/header/header-cat-desktop.png");
-    height: 684px;
+    height: 664px;
+    background-position: right 26px bottom 0;
   }
 }
 
@@ -146,6 +147,7 @@ a {
     -ms-flex-item-align: end;
         -ms-grid-row-align: end;
         align-self: end;
+    margin-bottom: 112px;
   }
 }
 
@@ -228,6 +230,12 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .header__title {
+    margin-bottom: 13px;
+  }
+}
+
 .header__lead {
   font-family: "Roboto";
   font-style: normal;
@@ -244,6 +252,12 @@ a {
     line-height: 24px;
     width: 320px;
     margin-bottom: 51px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .header__lead {
+    margin-bottom: 47px;
   }
 }
 
@@ -274,7 +288,7 @@ a {
 
 @media (min-width: 1366px) {
   .header__social {
-    margin-left: 0;
+    margin-left: 67px;
     -ms-flex-item-align: start;
         -ms-grid-row-align: start;
         align-self: start;
@@ -283,8 +297,8 @@ a {
     content: "";
     position: absolute;
     border: 0.5px solid rgba(255, 255, 255, 0.61);
-    padding-top: 77px;
-    bottom: 19%;
+    padding-top: 81px;
+    bottom: 17%;
     margin-left: 16px;
   }
 }
@@ -304,6 +318,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-top: -10px;
   }
 }
 
@@ -384,6 +399,13 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .pets__title {
+    margin-top: 218px;
+    margin-bottom: 19px;
+  }
+}
+
 .pets__lead {
   font-family: "Roboto";
   font-style: normal;
@@ -404,6 +426,12 @@ a {
         -ms-grid-row-align: center;
         align-self: center;
     margin-bottom: 45px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .pets__lead {
+    margin-bottom: 43px;
   }
 }
 
@@ -455,6 +483,12 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .pets__item {
+    margin-right: 46px;
+  }
+}
+
 .pets__item input {
   display: none;
 }
@@ -468,6 +502,12 @@ a {
   .pets__slider {
     height: 533px;
     margin-bottom: 11px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .pets__slider {
+    margin-bottom: 3px;
   }
 }
 
@@ -559,6 +599,12 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .button {
+    width: 206px;
+  }
+}
+
 .pets__button-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -640,7 +686,7 @@ a {
 
 @media (min-width: 1366px) {
   .breed-features {
-    height: 1116px;
+    height: 1001px;
   }
 }
 
@@ -676,6 +722,13 @@ a {
     line-height: 42px;
     margin-top: 91px;
     margin-bottom: 21px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .breed-features__title {
+    margin-top: 81px;
+    margin-left: 27px;
   }
 }
 
@@ -768,7 +821,8 @@ a {
     height: 631px;
   }
   .breed-features__image {
-    margin-top: -39px;
+    margin-top: -66px;
+    margin-left: 98px;
   }
 }
 
@@ -928,42 +982,44 @@ a {
   .friendly::before {
     width: 15px;
     height: 15px;
-    top: 1vh;
-    left: 26vh;
+    top: 0.5vh;
+    left: 22vh;
   }
   .friendly {
-    bottom: 53vh;
-    left: -33vh;
+    bottom: 47.5vh;
+    left: -26vh;
     width: 254px;
   }
   .trainable::before {
     width: 15px;
     height: 15px;
+    left: -34px;
   }
   .trainable {
     position: absolute;
-    bottom: 40vh;
-    left: 46vh;
+    bottom: 38.5vh;
+    left: 44.5vh;
     width: 201px;
     text-align: left;
   }
   .large::before {
     width: 15px;
     height: 15px;
+    left: -31px;
   }
   .large {
-    bottom: 23vh;
-    left: 42vh;
+    bottom: 21vh;
+    left: 41.5vh;
     width: 168px;
   }
   .appearance::before {
     width: 15px;
     height: 15px;
-    left: 22vh;
+    left: 18vh;
   }
   .appearance {
-    bottom: 27vh;
-    left: -31vh;
+    bottom: 24.5vh;
+    left: -24vh;
     width: 212px;
   }
 }
@@ -976,7 +1032,7 @@ a {
 
 @media (min-width: 1366px) {
   .advantages {
-    height: 618px;
+    height: 533px;
   }
 }
 
@@ -1031,6 +1087,12 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .advantages__lead {
+    margin-bottom: 49px;
+  }
+}
+
 .advantages__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1075,6 +1137,7 @@ a {
   .advantages__item {
     margin-bottom: 0;
     margin-right: 40px;
+    min-height: 296px;
   }
   .advantages__item:last-child {
     margin-right: 0;
@@ -1141,6 +1204,20 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .veterinary {
+    margin-bottom: 25px;
+  }
+  .counselting {
+    margin-bottom: 38px;
+    height: 161px;
+  }
+  .select-food {
+    margin-bottom: 29px;
+    height: 171px;
+  }
+}
+
 .advantages__content span {
   max-width: 213px;
   margin: 0 auto;
@@ -1177,6 +1254,13 @@ a {
   padding-bottom: 46px;
 }
 
+@media (min-width: 1366px) {
+  .care__wrapper {
+    padding-top: 3px;
+    padding-bottom: 103px;
+  }
+}
+
 .care__title {
   font-family: "Yeseva One";
   font-style: normal;
@@ -1199,6 +1283,13 @@ a {
   }
   br {
     display: none;
+  }
+}
+
+@media (min-width: 1366px) {
+  .care__title {
+    margin-top: 79px;
+    margin: 65px auto;
   }
 }
 
