@@ -46,7 +46,10 @@
     <header class="header">
       <div class="container">
         <div class="header__content">
-          <img class="header__logo" src="./img/svg/crown.svg" alt="logo" />
+          <picture class="header__picture-logo">
+            <source srcset="./img/header/crown-tablet.svg" media="(min-width: 768px)">
+            <img class="header__logo" src="./img/svg/crown.svg" alt="logo"/> 
+          </picture>
           <div class="header__info">
             <p class="header__city">Новосибирск</p>
             <h1 class="header__title">Питомник Мейн-Кунов</h1>

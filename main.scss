@@ -86,7 +86,7 @@ a {
 }
 
 .header {
-  height: 617px;
+  height: 618px;
   position: relative;
   background-color: #181617;
   background-image: url("./img/header/header-cat.png");
@@ -97,7 +97,8 @@ a {
 @media (min-width: 768px) {
   .header {
     background-image: url("./img/header/header-cat-tablet.png");
-    height: 594px;
+    height: 596px;
+    background-position: right -2px bottom 0;
   }
 }
 
@@ -128,22 +129,34 @@ a {
   }
 }
 
+.header__picture-logo {
+  display: flex;
+  align-self: center;
+}
+
+@media (min-width: 1366px) {
+  .header__picture-logo {
+    align-self: end;
+  }
+}
+
 .header__logo {
   margin-top: 27px;
-  margin-bottom: 52px;
+  margin-bottom: 51px;
   display: block;
 }
 
 @media (min-width: 768px) {
   .header__logo {
-    margin-bottom: 90px;
+    margin-bottom: 92px;
+    align-self: center;
   }
 }
 
 @media (min-width: 1366px) {
   .header__logo {
     align-self: end;
-    margin-bottom: 112px;
+    margin-bottom: 111px;
   }
 }
 
@@ -194,6 +207,13 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .header__city {
+    transform: translateX(3px);
+    margin-bottom: 18px;
+  }
+}
+
 .header__title {
   font-family: "Yeseva One";
   font-style: normal;
@@ -201,7 +221,8 @@ a {
   font-size: 36px;
   line-height: 42px;
   color: #ffffff;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
+  transform: translateX(-3px);
 }
 
 @media (min-width: 768px) {
@@ -215,7 +236,8 @@ a {
 
 @media (min-width: 1366px) {
   .header__title {
-    margin-bottom: 13px;
+    margin-bottom: 15px;
+    transform: translateX(0px);
   }
 }
 
@@ -227,8 +249,8 @@ a {
   line-height: 140%;
 
   color: #a07b50;
-
-  margin-bottom: 38px;
+  transform: translate(-1px);
+  margin-bottom: 35px;
 }
 
 @media (min-width: 768px) {
@@ -243,20 +265,21 @@ a {
 @media (min-width: 1366px) {
   .header__lead {
     margin-bottom: 47px;
+    transform: translateX(4px);
   }
 }
 
 @media (min-width: 768px) {
   .header__button {
-    margin-left: 28px;
-    margin-bottom: 60px;
+    margin-left: 29px;
+    margin-bottom: 59px;
   }
 }
 
 @media (min-width: 1366px) {
   .header__button {
     margin-left: 0;
-    margin-right: 120px;
+    margin-right: 115px;
   }
 }
 
@@ -281,9 +304,9 @@ a {
     content: "";
     position: absolute;
     border: 0.5px solid rgba(255, 255, 255, 0.61);
-    padding-top: 81px;
-    bottom: 17%;
-    margin-left: 16px;
+    padding-top: 76px;
+    bottom: 16.5%;
+    margin-left: 14px;
   }
 }
 
@@ -561,16 +584,17 @@ a {
 @media (min-width: 768px) {
   .button {
     width: 200px;
-    height: 53px;
+    height: 52px;
     padding: 18px;
     font-size: 14px;
     line-height: 16px;
+    padding-left: 12px;
   }
 }
 
 @media (min-width: 1366px) {
   .button {
-    width: 206px;
+    width: 202px;
   }
 }
 
