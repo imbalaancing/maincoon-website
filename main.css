@@ -423,7 +423,7 @@ a {
   text-align: center;
   color: #ffffff;
   margin-top: 54px;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 @media (min-width: 768px) {
@@ -431,7 +431,7 @@ a {
     font-size: 36px;
     line-height: 42px;
     margin-top: 98px;
-    margin-bottom: 22px;
+    margin-bottom: 23px;
   }
 }
 
@@ -478,7 +478,7 @@ a {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 0;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 @media (min-width: 768px) {
@@ -505,6 +505,8 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
   color: #ffffff;
 }
 
@@ -531,7 +533,7 @@ a {
 
 .pets__slider {
   position: relative;
-  margin-bottom: 11px;
+  margin-bottom: 15px;
 }
 
 @media (min-width: 768px) {
@@ -563,6 +565,7 @@ a {
 
 .pets__slider-img--active {
   display: block;
+  margin-left: -2px;
 }
 
 @media (min-width: 768px) {
@@ -658,7 +661,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 44%;
+  top: 45%;
   z-index: 5;
   display: block;
   width: 14px;
@@ -687,7 +690,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
-  top: 44%;
+  top: 45%;
   z-index: 5;
   display: block;
   width: 14px;
