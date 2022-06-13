@@ -389,15 +389,16 @@ a {
   .pets__title {
     font-size: 36px;
     line-height: 42px;
-    margin-top: 98px;
-    margin-bottom: 23px;
+    margin-top: 99px;
+    margin-bottom: 21px;
   }
 }
 
 @media (min-width: 1366px) {
   .pets__title {
-    margin-top: 218px;
+    margin-top: 220px;
     margin-bottom: 19px;
+    transform: translateX(4px);
   }
 }
 
@@ -419,12 +420,14 @@ a {
     width: 516px;
     align-self: center;
     margin-bottom: 45px;
+    transform: translateX(-2px);
   }
 }
 
 @media (min-width: 1366px) {
   .pets__lead {
     margin-bottom: 43px;
+    transform: translateX(2px);
   }
 }
 
@@ -438,7 +441,7 @@ a {
 @media (min-width: 768px) {
   .pets__list {
     justify-content: center;
-    margin-bottom: 45px;
+    margin-bottom: 44px;
   }
 }
 
@@ -477,6 +480,7 @@ a {
 @media (min-width: 1366px) {
   .pets__item {
     margin-right: 46px;
+    transform: translateX(-1px);
   }
 }
 
@@ -539,7 +543,7 @@ a {
 
 @media (min-width: 1366px) {
   .pets__slider-img--left {
-    bottom: 8%;
+    bottom: 9%;
     right: 50%;
   }
 
@@ -596,6 +600,13 @@ a {
 @media (min-width: 1366px) {
   .button {
     width: 202px;
+  }
+
+  .pets__button {
+    width: 201px;
+    margin-right: -5px;
+    padding-left: 22px;
+    padding: 19px;
   }
 }
 
