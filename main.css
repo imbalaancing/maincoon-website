@@ -782,8 +782,9 @@ a {
 
 @media (min-width: 1366px) {
   .breed-features__title {
-    margin-top: 81px;
+    margin-top: 84px;
     margin-left: 27px;
+    margin-bottom: 18px;
   }
 }
 
@@ -813,6 +814,8 @@ a {
 @media (min-width: 1366px) {
   .breed-features__lead {
     width: 735px;
+    -webkit-transform: translateX(3px);
+            transform: translateX(3px);
   }
 }
 
@@ -875,11 +878,11 @@ a {
     top: 15%;
     left: -5%;
     width: 631px;
-    height: 631px;
+    height: 629px;
   }
   .breed-features__image {
-    margin-top: -66px;
-    margin-left: 98px;
+    margin-top: -64px;
+    margin-left: 92px;
   }
 }
 
@@ -1044,43 +1047,43 @@ a {
     width: 15px;
     height: 15px;
     top: 0.5vh;
-    left: 22vh;
+    left: 24vh;
   }
   .friendly {
-    bottom: 47.5vh;
-    left: -26vh;
+    bottom: 52.5vh;
+    left: -29vh;
     width: 254px;
   }
   .trainable::before {
     width: 15px;
     height: 15px;
-    left: -34px;
+    left: -37px;
   }
   .trainable {
     position: absolute;
-    bottom: 38.5vh;
-    left: 44.5vh;
+    bottom: 42.5vh;
+    left: 49vh;
     width: 201px;
     text-align: left;
   }
   .large::before {
     width: 15px;
     height: 15px;
-    left: -31px;
+    left: -32px;
   }
   .large {
-    bottom: 21vh;
-    left: 41.5vh;
+    bottom: 23.3vh;
+    left: 45.5vh;
     width: 168px;
   }
   .appearance::before {
     width: 15px;
     height: 15px;
-    left: 18vh;
+    left: 20vh;
   }
   .appearance {
-    bottom: 24.5vh;
-    left: -24vh;
+    bottom: 27vh;
+    left: -27vh;
     width: 212px;
   }
 }
