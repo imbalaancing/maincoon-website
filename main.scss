@@ -1067,6 +1067,12 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .advantages__wrapper {
+    margin-bottom: 86px;
+  }
+}
+
 .advantages__title {
   font-family: "Yeseva One";
   font-style: normal;
@@ -1085,6 +1091,12 @@ a {
     font-size: 36px;
     line-height: 42px;
     width: unset;
+  }
+}
+
+@media (min-width: 1366px) {
+  .advantages__title {
+    transform: translateX(3px);
   }
 }
 
@@ -1110,7 +1122,8 @@ a {
 
 @media (min-width: 1366px) {
   .advantages__lead {
-    margin-bottom: 49px;
+    margin-bottom: 48px;
+    transform: translateX(6px);
   }
 }
 
@@ -1145,7 +1158,7 @@ a {
 @media (min-width: 1366px) {
   .advantages__item {
     margin-bottom: 0;
-    margin-right: 40px;
+    margin-right: 33px;
     min-height: 296px;
   }
 
@@ -1219,17 +1232,20 @@ a {
 
 @media (min-width: 1366px) {
   .veterinary {
-    margin-bottom: 25px;
+    margin-bottom: 28px;
+    transform: translateX(-3px);
   }
 
   .counselting {
-    margin-bottom: 38px;
+    margin-bottom: 41px;
     height: 161px;
+    transform: translateX(3px);
   }
 
   .select-food {
-    margin-bottom: 29px;
+    margin-bottom: 31px;
     height: 171px;
+    transform: translateX(-2px);
   }
 }
 
