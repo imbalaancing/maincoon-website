@@ -681,7 +681,7 @@ a {
 
 @media (min-width: 768px) {
   .breed-features {
-    height: 832px;
+    height: 833px;
   }
 }
 
@@ -1063,7 +1063,7 @@ a {
 
 @media (min-width: 768px) {
   .advantages__wrapper {
-    margin-top: 84px;
+    margin-top: 86px;
   }
 }
 
@@ -1151,7 +1151,7 @@ a {
   .advantages__item {
     width: 360px;
     min-height: 307px;
-    margin-bottom: 42px;
+    margin-bottom: 44px;
   }
 }
 
@@ -1190,7 +1190,7 @@ a {
   background-image: url("./img/section-advantages/vet-care.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 145px;
+  height: 143px;
   margin-bottom: 14px;
 }
 
@@ -1198,7 +1198,7 @@ a {
   background-image: url("./img/section-advantages/counseling.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 135px;
+  height: 134px;
   margin-bottom: 14px;
 }
 
@@ -1206,46 +1206,50 @@ a {
   background-image: url("./img/section-advantages/food-select.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 145px;
+  height: 143px;
   margin-bottom: 14px;
 }
 
 @media (min-width: 768px) {
   .veterinary {
     background-image: url("./img/section-advantages/vet-care-tablet.svg");
-    margin-bottom: 36px;
+    margin-bottom: 34px;
     height: 174px;
+    margin-right: 5px;
   }
 
   .counselting {
     background-image: url("./img/section-advantages/counselting-tablet.svg");
-    margin-bottom: 40px;
-    height: 169px;
+    margin-bottom: 41px;
+    height: 165px;
+    margin-right: 2px;
   }
 
   .select-food {
     background-image: url("./img/section-advantages/food-select-tablet.svg");
-    margin-bottom: 32px;
-    height: 181px;
+    margin-bottom: 31px;
+    height: 177px;
+    margin-right: 4px;
   }
 }
 
 @media (min-width: 1366px) {
   .veterinary {
-    margin-bottom: 28px;
+    margin-bottom: 31px;
     transform: translateX(-3px);
+    height: 169px;
   }
 
   .counselting {
-    margin-bottom: 41px;
+    margin-bottom: 39px;
     height: 161px;
     transform: translateX(3px);
   }
 
   .select-food {
-    margin-bottom: 31px;
+    margin-bottom: 29px;
     height: 171px;
-    transform: translateX(-2px);
+    transform: translateX(0px);
   }
 }
 
@@ -1303,6 +1307,7 @@ a {
   width: 228px;
   margin: 42px auto;
   color: #ffffff;
+  transform: translateX(-3px);
 }
 
 @media (min-width: 768px) {
@@ -1351,6 +1356,22 @@ a {
   margin-bottom: 30px;
   width: 290px;
   min-height: 151px;
+}
+
+.wool {
+  height: 150px;
+}
+
+.earsandeyes {
+  height: 150px;
+}
+
+.claws {
+  height: 150px;
+}
+
+.food {
+  height: 150px;
 }
 
 @media (min-width: 768px) {
