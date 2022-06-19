@@ -932,13 +932,13 @@ a {
   .friendly::before {
     width: 15px;
     height: 15px;
-    top: 0.5vh;
-    left: 24vh;
+    top: 0.7vh;
+    left: 29vh;
   }
 
   .friendly {
-    bottom: 52.5vh;
-    left: -29vh;
+    bottom: 62vh;
+    left: -34.5vh;
     width: 254px;
   }
 
@@ -950,10 +950,11 @@ a {
 
   .trainable {
     position: absolute;
-    bottom: 42.5vh;
-    left: 49vh;
+    bottom: 50vh;
+    left: 58vh;
     width: 201px;
     text-align: left;
+    transform: translateX(-3px);
   }
 
   .large::before {
@@ -963,21 +964,22 @@ a {
   }
 
   .large {
-    bottom: 23.3vh;
-    left: 45.5vh;
+    bottom: 27.4vh;
+    left: 53.8vh;
     width: 168px;
   }
 
   .appearance::before {
     width: 15px;
     height: 15px;
-    left: 20vh;
+    left: 23.6vh;
   }
 
   .appearance {
-    bottom: 27vh;
-    left: -27vh;
+    bottom: 31.9vh;
+    left: -32.1vh;
     width: 212px;
+    transform: translateX(3px);
   }
 }
 @media (min-width: 768px) {
