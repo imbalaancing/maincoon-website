@@ -97,7 +97,7 @@ a {
 @media (min-width: 768px) {
   .header {
     background-image: url("./img/header/header-cat-tablet.png");
-    height: 596px;
+    height: 598px;
     background-position: right -2px bottom 0;
   }
 }
@@ -148,6 +148,7 @@ a {
 
 @media (min-width: 768px) {
   .header__logo {
+    margin-top: 29px;
     margin-bottom: 92px;
     align-self: center;
   }
@@ -562,6 +563,10 @@ a {
     z-index: 4;
     width: 471px;
     height: 492px;
+  }
+
+  .pets__slider-img-wrapper {
+    overflow: hidden;
   }
 }
 
@@ -1317,7 +1322,9 @@ a {
     font-size: 36px;
     line-height: 42px;
     width: auto;
-    margin-top: 135px;
+    margin-top: 132px;
+    transform: translateX(0px);
+    margin-bottom: 37px;
   }
 
   br {
@@ -1381,22 +1388,22 @@ a {
   .care__item {
     min-width: 558px;
     min-height: 156px;
-    margin-bottom: 28px;
+    margin-bottom: 24px;
   }
 
   .claws {
-    min-width: 558px;
-    min-height: 156px;
+    width: 558px;
+    height: 168px;
   }
 
   .wool {
-    min-width: 558px;
-    min-height: 156px;
+    width: 558px;
+    height: 168px;
   }
 
   .earsandeyes {
-    min-width: 558px;
-    min-height: 173px;
+    width: 558px;
+    height: 168px;
   }
 }
 
@@ -1451,6 +1458,34 @@ a {
     padding-top: 34px;
     padding-bottom: 38px;
     padding-left: 48px;
+  }
+
+  .care__link--wool {
+    padding-top: 39px;
+    padding-bottom: 46px;
+    padding-left: 46px;
+  }
+
+  .care__link--earsandeyes {
+    padding-top: 34px;
+    padding-bottom: 28px;
+    padding-left: 46px;
+  }
+
+  .care__link--claws {
+    padding-top: 38px;
+    padding-bottom: 46px;
+    padding-left: 46px;
+  }
+
+  .care__link--claws p {
+    width: 390px;
+  }
+
+  .care__link--food {
+    padding-top: 36px;
+    padding-bottom: 26px;
+    padding-left: 47px;
   }
 }
 
@@ -1518,6 +1553,7 @@ a {
   .care__link-title {
     font-size: 22px;
     line-height: 26px;
+    padding-bottom: 11px;
   }
 }
 
@@ -1533,8 +1569,16 @@ a {
 
 @media (min-width: 768px) {
   .care__link-info {
-    min-width: 420px;
+    min-width: unset;
+    max-width: unset;
+    width: 416px;
+    line-height: 160%;
   }
+
+  .care__link-info--earsandeyes {
+    width: 390px;
+  }
+
 }
 
 .team {
