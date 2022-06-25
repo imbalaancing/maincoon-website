@@ -97,7 +97,7 @@ a {
 @media (min-width: 768px) {
   .header {
     background-image: url("./img/header/header-cat-tablet.png");
-    height: 598px;
+    height: 596px;
     background-position: right -2px bottom 0;
   }
 }
@@ -204,7 +204,7 @@ a {
   .header__city {
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 21px;
+    margin-bottom: 19px;
   }
 }
 
@@ -1070,7 +1070,7 @@ a {
 
 @media (min-width: 768px) {
   .advantages__wrapper {
-    margin-top: 86px;
+    margin-top: 85px;
   }
 }
 
@@ -1973,7 +1973,7 @@ a {
 
 @media (min-width: 768px) {
   .faq__wrapper {
-    padding-bottom: 43px;
+    padding-bottom: 65px;
   }
 }
 
@@ -2348,7 +2348,7 @@ a {
 
 @media (min-width: 768px) {
   .reviews__wrapper {
-    padding-bottom: 75px;
+    padding-bottom: 70px;
   }
 }
 
@@ -2365,7 +2365,7 @@ a {
   .reviews__slider-outer {
     width: 578px;
     height: 370px;
-    bottom: 11px;
+    bottom: 15px;
     right: 69px;
   }
 }
@@ -2395,7 +2395,7 @@ a {
     font-size: 36px;
     line-height: 42px;
     margin-left: 20px;
-    margin-bottom: 49px;
+    margin-bottom: 50px;
   }
 }
 
@@ -2428,7 +2428,8 @@ a {
   .reviews__img {
     width: 306px;
     height: 206px;
-    margin-left: 25px;
+    margin-left: 18px;
+    margin-bottom: 31px;
   }
 }
 
@@ -2478,7 +2479,7 @@ a {
     width: 59px;
     height: 16px;
     right: 73%;
-    top: 28.5%;
+    top: 28%;
   }
 
   .reviews__button-next {
@@ -2486,7 +2487,7 @@ a {
     width: 59px;
     height: 16px;
     right: 15.5%;
-    top: 28.5%;
+    top: 28%;
   }
 }
 
@@ -2524,6 +2525,7 @@ a {
   .reviews__slider-title {
     font-size: 24px;
     line-height: 28px;
+    margin-bottom: 15px;
   }
 }
 
@@ -2552,8 +2554,9 @@ a {
   .reviews__slider-lead {
     font-size: 14px;
     line-height: 23px;
-    min-width: 356px;
-    margin-bottom: 28px;
+    min-width: 294px;
+    margin-bottom: 7px;
+    transform: translateX(20px);
   }
 }
 
@@ -2574,7 +2577,7 @@ a {
 
 @media (min-width: 768px) {
   .reviews__slider-social {
-    margin-left: 32px;
+    margin-left: 29px;
   }
 }
 
@@ -2598,13 +2601,19 @@ a {
   .reviews__slider-time {
     font-size: 12px;
     line-height: 19px;
-    margin-left: 37px;
+    margin-left: 29px;
   }
 }
 
 .reviews__slider-list {
   display: flex;
   margin-right: 29px;
+}
+
+@media (min-width: 768px) {
+  .reviews__slider-list {
+    margin-right: 11px;
+  }
 }
 
 @media (min-width: 1366px) {
@@ -2700,7 +2709,7 @@ a {
     padding-top: 0;
     margin-bottom: 0;
     order: 2;
-    margin-left: 46px;
+    margin-left: 42px;
   }
 }
 
