@@ -105,7 +105,7 @@ a {
 @media (min-width: 1366px) {
   .header {
     background-image: url("./img/header/header-cat-desktop.png");
-    height: 664px;
+    height: 667px;
     background-position: right 26px bottom 0;
   }
 }
@@ -727,9 +727,10 @@ a {
 
 @media (min-width: 1366px) {
   .breed-features__title {
-    margin-top: 84px;
+    margin-top: 82px;
     margin-left: 27px;
-    margin-bottom: 18px;
+    margin-bottom: 19px;
+    transform: translateX(3px);
   }
 }
 
@@ -1001,25 +1002,25 @@ a {
     width: 15px;
     height: 15px;
     top: 0.7vh;
-    left: 29vh;
+    left: 31vh;
   }
 
   .friendly {
-    bottom: 62vh;
-    left: -34.5vh;
+    bottom: 66.8vh;
+    left: -37vh;
     width: 254px;
   }
 
   .trainable::before {
     width: 15px;
     height: 15px;
-    left: -37px;
+    left: -34px;
+    top: 5px;
   }
 
   .trainable {
-    position: absolute;
-    bottom: 50vh;
-    left: 58vh;
+    bottom: 54vh;
+    left: 62.5vh;
     width: 201px;
     text-align: left;
     transform: translateX(-3px);
@@ -1032,20 +1033,20 @@ a {
   }
 
   .large {
-    bottom: 27.4vh;
-    left: 53.8vh;
+    bottom: 29.6vh;
+    left: 58vh;
     width: 168px;
   }
 
   .appearance::before {
     width: 15px;
     height: 15px;
-    left: 23.6vh;
+    left: 25.6vh;
   }
 
   .appearance {
-    bottom: 31.9vh;
-    left: -32.1vh;
+    bottom: 34.4vh;
+    left: -34.5vh;
     width: 212px;
     transform: translateX(3px);
   }
@@ -1104,6 +1105,7 @@ a {
 @media (min-width: 1366px) {
   .advantages__title {
     transform: translateX(3px);
+    margin-bottom: 19px;
   }
 }
 
@@ -1129,7 +1131,7 @@ a {
 
 @media (min-width: 1366px) {
   .advantages__lead {
-    margin-bottom: 48px;
+    margin-bottom: 51px;
     transform: translateX(6px);
   }
 }
@@ -1165,7 +1167,7 @@ a {
 @media (min-width: 1366px) {
   .advantages__item {
     margin-bottom: 0;
-    margin-right: 33px;
+    margin-right: 34px;
     min-height: 296px;
   }
 
@@ -1242,20 +1244,24 @@ a {
 
 @media (min-width: 1366px) {
   .veterinary {
-    margin-bottom: 31px;
-    transform: translateX(-3px);
+    margin-bottom: 32px;
+    transform: translateX(1px);
     height: 169px;
   }
 
   .counselting {
-    margin-bottom: 39px;
+    margin-bottom: 40px;
     height: 161px;
-    transform: translateX(3px);
+    transform: translateX(5px);
+  }
+
+  .counselting__text {
+    transform: translateX(5px);
   }
 
   .select-food {
     margin-bottom: 29px;
-    height: 171px;
+    height: 172px;
     transform: translateX(0px);
   }
 }
@@ -1298,7 +1304,7 @@ a {
 
 @media (min-width: 1366px) {
   .care__wrapper {
-    padding-top: 3px;
+    padding-top: 17px;
     padding-bottom: 52px;
   }
 }
@@ -1336,6 +1342,7 @@ a {
   .care__title {
     margin-top: 79px;
     margin: 65px auto;
+    transform: translateX(5px);
   }
 }
 
