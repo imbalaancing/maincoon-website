@@ -1212,6 +1212,8 @@ a {
 @media (min-width: 1366px) {
   .care {
     background-image: url("./img/section-care/bg-cat-desktop.jpg");
+    background-position: left -24px bottom -21px;
+    height: 640px;
   }
 }
 .care__wrapper {
@@ -1257,6 +1259,7 @@ a {
   .care__title {
     margin-top: 79px;
     margin: 65px auto;
+    margin-bottom: 47px;
     transform: translateX(5px);
   }
 }
@@ -1324,13 +1327,44 @@ a {
     width: 558px;
     height: 168px;
   }
+
+  .food {
+    width: 558px;
+    height: 168px;
+  }
 }
 @media (min-width: 1366px) {
   .care__item {
-    margin-right: 30px;
+    margin-right: 16px;
     min-height: unset;
     height: 157px;
-    margin-bottom: 50px;
+    margin-bottom: 38px;
+  }
+
+  .claws {
+    width: 558px;
+    height: 168px;
+    order: 2;
+    margin-left: 28px;
+  }
+
+  .wool {
+    width: 558px;
+    height: 168px;
+    order: 1;
+  }
+
+  .earsandeyes {
+    width: 558px;
+    height: 168px;
+    order: 3;
+  }
+
+  .food {
+    width: 558px;
+    height: 168px;
+    order: 4;
+    margin-left: 26px;
   }
 }
 .care__link {
@@ -1414,21 +1448,28 @@ a {
 }
 @media (min-width: 1366px) {
   .care__link--earsandeyes {
-    padding-top: 36px;
-    height: 156px;
+    padding-top: 33px;
+    height: 164px;
+    padding-left: 60px;
   }
 
   .care__link--food {
     padding-top: 36px;
-    height: 156px;
+    height: 164px;
+    padding-left: 60px;
   }
 
   .care__link--wool {
-    height: 156px;
+    height: 164px;
+    padding-top: 35px;
+    padding-bottom: 41px;
+    padding-left: 59px;
   }
 
   .care__link--claws {
-    height: 156px;
+    height: 164px;
+    padding-top: 37px;
+    padding-left: 56px;
   }
 }
 .care__link::after {
@@ -1452,6 +1493,12 @@ a {
     background-image: url("./img/section-care/arrow-tablet.svg");
   }
 }
+@media (min-width: 1366px) {
+  .care__link::after {
+    width: 60px;
+    right: -4px;
+  }
+}
 .care__link-title {
   font-family: "Roboto";
   font-style: normal;
@@ -1467,6 +1514,11 @@ a {
     font-size: 22px;
     line-height: 26px;
     padding-bottom: 11px;
+  }
+}
+@media (min-width: 1366px) {
+  .care__link-title {
+    padding-bottom: 9px;
   }
 }
 .care__link-info {
