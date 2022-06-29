@@ -98,7 +98,6 @@ a {
   .header {
     background-image: url("./img/header/header-cat-tablet.png");
     height: 596px;
-    background-position: right -2px bottom 0;
   }
 }
 
@@ -291,7 +290,7 @@ a {
 @media (min-width: 768px) {
   .header__social {
     display: block;
-    margin-left: 28px;
+    margin-left: 26px;
   }
 }
 
@@ -1343,9 +1342,8 @@ a {
   font-size: 28px;
   line-height: 32px;
   text-align: center;
-  margin-bottom: 42px;
   width: 228px;
-  margin: 36px auto;
+  margin: 39px auto 33px auto;
   color: #ffffff;
   transform: translateX(-3px);
 }
@@ -1673,14 +1671,15 @@ a {
 
 @media (min-width: 768px) {
   .team {
-    height: 865px;
+    height: 830px;
     background-color: #151313;
+    margin-top: 35px;
   }
 }
 
 @media (min-width: 1366px) {
   .team {
-    height: 690px;
+    height: 655px;
   }
 }
 
@@ -1709,14 +1708,14 @@ a {
   .team__title {
     font-size: 36px;
     line-height: 42px;
-    padding-top: 121px;
+    padding-top: 85px;
     padding-bottom: 21px;
   }
 }
 
 @media (min-width: 1366px) {
   .team__title {
-    padding-top: 82px;
+    padding-top: 46px;
     padding-bottom: 20px;
     transform: translateX(5px);
   }
@@ -2818,6 +2817,7 @@ a {
 .footer__wrapper {
   display: flex;
   flex-direction: column;
+  padding-top: 3px;
 }
 
 @media (min-width: 768px) {
@@ -2832,7 +2832,7 @@ a {
 @media (min-width: 1366px) {
   .footer__wrapper {
     justify-content: space-around;
-    padding: 70px 197px 68px 180px;
+    padding: 33px 197px 66px 208px;
   }
 }
 
@@ -2845,7 +2845,7 @@ a {
 
   text-align: center;
   margin-bottom: 9px;
-  padding-top: 36px;
+  padding-top: 33px;
   color: #d6ccc2;
 }
 
@@ -2860,7 +2860,8 @@ a {
 
 @media (min-width: 1366px) {
   .footer__address {
-    margin-left: -4px;
+    margin-right: 16px;
+    margin-top: 8px;
   }
 }
 
@@ -2882,6 +2883,15 @@ a {
   }
 }
 
+@media (min-width: 1366px) {
+  .footer__phone {
+    margin-bottom: 0;
+    order: 3;
+    margin-right: 35px;
+    margin-top: 9px;
+  }
+}
+
 .footer__social-list {
   display: flex;
   flex-direction: row;
@@ -2898,7 +2908,8 @@ a {
 
 @media (min-width: 1366px) {
   .footer__social-list {
-    margin-right: 57px;
+    margin-right: 50px;
+    margin-top: 7px;
   }
 }
 
@@ -2977,7 +2988,8 @@ a {
   .footer__logo {
     width: 49px;
     display: block;
-    margin-bottom: 0;
-    margin-right: 32px;
+    margin-bottom: 0px;
+    margin-right: 70px;
+    align-self: flex-start;
   }
 }
