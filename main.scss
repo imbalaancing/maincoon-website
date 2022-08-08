@@ -103,9 +103,10 @@ a {
 
 @media (min-width: 1366px) {
   .header {
-    background-image: url("/img/header/header-cat-desktop.png");
+    // background-image: url("/img/header/header-cat-desktop.png");
+    background-image: none;
     height: 684px;
-    background-position: right 0 bottom 0;
+    // background-position: right 0 bottom 0;
   }
 }
 
@@ -125,6 +126,13 @@ a {
 @media (min-width: 1366px) {
   .container {
     width: 1366px;
+  }
+
+  .header__container {
+    background-image: url(/img/header/header-cat-desktop.png);
+    background-repeat: no-repeat;
+    background-position: right 0 bottom 0px;
+    height: 684px;
   }
 }
 
@@ -313,7 +321,7 @@ a {
     position: absolute;
     border: 0.5px solid rgba(255, 255, 255, 0.61);
     padding-top: 76px;
-    bottom: 16.5%;
+    bottom: 155px;
     margin-left: 14px;
   }
 }
@@ -2094,7 +2102,7 @@ a {
 }
 
 .faq__wrapper {
-  padding-bottom: 28px;
+  padding-bottom: 26px;
 }
 
 @media (min-width: 768px) {
@@ -2547,7 +2555,7 @@ a {
   line-height: 30px;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 54px;
+  margin-bottom: 57px;
 }
 
 @media (min-width: 768px) {
@@ -2709,7 +2717,7 @@ a {
   width: 227px;
   color: rgba(255, 255, 255, 0.72);
   margin: 0 auto;
-  margin-bottom: 25px;
+  margin-bottom: 26px;
 }
 
 @media (min-width: 768px) {
@@ -2758,7 +2766,7 @@ a {
   font-size: 12px;
   line-height: 140%;
   color: #a07b50;
-  margin-left: 34px
+  margin-left: 13px;
 }
 
 @media (min-width: 768px) {
@@ -2778,7 +2786,7 @@ a {
 
 .reviews__slider-list {
   display: flex;
-  margin-right: 29px;
+  margin-right: 9px;
 }
 
 @media (min-width: 768px) {
